@@ -1,0 +1,21 @@
+/*------------------------------Footer*/
+
+footer {background-color: #49BEAA;
+    height: 80px;
+    margin: 0%;
+}
+
+.social-media-icon i {
+    color: #456990;
+    padding: 20px 0;
+    height: 75px;
+    width: 75px;
+    font-size: 35px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-media-icon i:hover {color:#ffcc33;}
