@@ -1,23 +1,33 @@
 
-<style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;700&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;700&display=swap');
+
+/*------------------------------Header*/
 
 
 {font-family: 'Noto Sans',
 sans-serif;}
 
+.logo-image-header {}
 
+.header-title {
+   color: #cd2026;
+   font-size: x-large;
+   font-weight: 700;
+padding-top: 80px;}
+
+.navbar-right {position: absolute;
+right:0px}
 
 
 /*------------------------------Footer*/
 
-footer {background-color: #49BEAA;
+footer {background-color: #31BB9B;
     height: 80px;
     margin: 0%;
 }
 
 .social-media-icon i {
-    color: #456990;
+    color: #8D236B;
     padding: 20px 0;
     height: 75px;
     width: 75px;
