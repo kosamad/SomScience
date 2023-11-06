@@ -87,6 +87,8 @@
     padding: 20px 10px ;
 }
 
+.showbox-outer{padding: 15px;}
+
 .showbox-container h2 {font-family: "roboto-slab", sans-serif;
 text-transform: uppercase;
 font-weight: 300;
