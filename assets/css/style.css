@@ -1,27 +1,38 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;700&display=swap');
 
 /*------------------------------Header*/
 
 
-{font-family: 'Noto Sans',
-sans-serif;}
+    {
+    font-family: 'Noto Sans',
+        sans-serif;
+}
 
 .logo-image-header {}
 
 .header-title {
-   color: #cd2026;
-   font-size: x-large;
-   font-weight: 700;
-padding-top: 80px;}
+    color: #cd2026;
+    font-size: x-large;
+    font-weight: 700;
+}
 
-.navbar-right {position: absolute;
-right:0px}
+
+.navbar-right {
+    position: absolute;
+    right: 0px;
+    text-transform: uppercase;
+}
+
+.navbar-right a {
+    color: #31BB9B;
+    font-weight: 600;
+}
 
 
 /*------------------------------Footer*/
 
-footer {background-color: #31BB9B;
+footer {
+    background-color: #31BB9B;
     height: 80px;
     margin: 0%;
 }
@@ -39,4 +50,6 @@ footer {background-color: #31BB9B;
 
 }
 
-.social-media-icon i:hover {color:#ffcc33;}
+.social-media-icon i:hover {
+    color: #ffcc33;
+}
