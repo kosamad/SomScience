@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;700&display=swap');
 
-/*------------------------------Header*/
+/*-----------------------------
 
 
     {
     font-family: 'Noto Sans',
         sans-serif;
 }
+ not sure if i need to load the font code anywhere. this is what i've chosen
 
-.logo-image-header {}
+/*------------------------------Header*/
+
 
 .header-title {
     color: #cd2026;
-    font-size: x-large;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 
@@ -28,28 +31,56 @@
     font-weight: 600;
 }
 
+/*-----------------------------
 
-/*------------------------------Footer*/
+.dark-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pexels-thirdman-8926847.jpg");
+         background-size: cover;
+         background-position: center center;  
+    }
 
-footer {
-    background-color: #31BB9B;
-    height: 80px;
-    margin: 0%;
+        /*------------------------------Hero Image*/
+
+#hero-image {height: 700px;
+width: 100%;
+background: url("../images/pexels-yan-krukau-8617817.jpg") no-repeat center center;
+background-size: cover;
+position:relative;
 }
 
-.social-media-icon i {
-    color: #8D236B;
-    padding: 20px 0;
-    height: 75px;
-    width: 75px;
-    font-size: 35px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 
-}
 
-.social-media-icon i:hover {
-    color: #ffcc33;
+    /*------------------------------
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    color: #31BB9B;
 }
+/*------------------------------Hero Image*/
+
+    /*------------------------------Footer*/
+
+    footer {
+        background-color: #31BB9B;
+        height: 80px;
+        margin: 0%;
+    }
+
+    .social-media-icon i {
+        color: #8D236B;
+        padding: 20px 0;
+        height: 75px;
+        width: 75px;
+        font-size: 35px;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+
+    }
+
+    .social-media-icon i:hover {
+        color: #ffcc33;
+    }
