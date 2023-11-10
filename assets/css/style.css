@@ -19,7 +19,7 @@
     font-weight: 500;
     text-transform: uppercase;
     font-family: "roboto-slab", sans-serif;
-    
+
 }
 
 
@@ -38,7 +38,7 @@
 
 
 #hero-image {
-    height: 700px;
+    height: 85vh;
     width: 100%;
     background: url("../images/pexels-yan-krukau-8617817.jpg") no-repeat center center;
     background-size: cover;
@@ -47,28 +47,96 @@
 
 .hero-title {
     font-family: "roboto-slab", sans-serif;
-    font-size: 400%;
+    font-size: 3.5vw;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
-    position: relative;
+
 }
 
 .hero-slogan {
     font-family: "cookie", sans-serif;
-    font-size: 300%;
+    font-size: 2.5vw;
     text-align: center;
     color: #ffffff;
-    position: relative;
 }
 
 #cover-text {
     padding: 35px 35px 25px;
     background-color: rgba(49, 187, 155, 0.6);
-    position: absolute;
-    top: 50%;
-    left: 58%;
+    position: relative;
+    left: 68%;
+    top: 70%;
+    width: 30%;
+    height: 23vh;
+    border-radius: 1.5rem
+}
+
+/* If the screen size is 1024px wide or less */
+
+@media screen and (max-width: 1024px) {
+    .hero-title {
+        font-size: 4.7vw;
+        padding: 10px 10px 5px 10px;
     }
+
+    .hero-slogan {
+        font-size: 3.8vw;
+    }
+
+    #cover-text {
+        padding: 15px 15px 15px;
+        left: 57%;
+        top: 70%;
+        width: 40%;
+        height: 25%;
+    }
+}
+
+/* If the screen size is 800px wide or less */
+@media screen and (max-width: 800px) {
+    .hero-title {
+        font-size: 6vw;
+        padding: 10px 10px 5px 10px;
+    }
+
+    .hero-slogan {
+        font-size: 5vw;
+    }
+
+    #cover-text {
+        padding: 15px 15px 15px;
+        width: 66%;
+        height: 20vh;
+        left: 32%;
+        top: 73%;
+    }
+}
+
+/* If the screen size is 425px wide or less */
+
+@media screen and (max-width: 425px) {
+    .hero-title {
+        font-size: 8vw;
+        padding: 10px 10px 5px 10px;
+    }
+
+    .hero-slogan {
+        font-size: 7.5vw;
+    }
+
+    #cover-text {
+        padding: 15px 15px 15px;
+        width: 66%;
+        height: 20%;
+        left: 32%;
+        top: 75%;
+    }
+}
+
+
+
+
 
 /*------------------------------
 .hero-text {
@@ -83,18 +151,28 @@
 
 /*------------------------------Home page showcase boxes*/
 
-.showbox-container{
-    padding: 20px 10px ;
+.showbox-container {
+    padding: 20px 10px;
 }
 
-.showbox-outer{padding: 15px;}
+.showbox-outer {
+    padding: 15px;
+}
 
-.showbox-container h2 {font-family: "roboto-slab", sans-serif;
-text-transform: uppercase;
-font-weight: 300;
-text-align: center;
-padding-top: 5%;}
+.showbox-container h2 {
+    font-family: "roboto-slab", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 5%;
+}
 
+.showbox-container p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.rounded-edge {border-radius: 1.5rem;}
 
 
 /*------------------------------Footer*/
