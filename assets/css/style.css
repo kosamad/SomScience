@@ -189,14 +189,13 @@
 
 /*------------------------------Contact form*/
 
-.bg-contact-image{
-  height: 60%;
-    }
+.contact-bg-colour {
+    background-color: #8D236B;
+}
 
-        
-.contact-bg-colour {background-color: #8D236B;}
-
-.container-outer {margin: 200px;}
+.container-outer {
+    margin: 10%;
+}
 
 .center-form {
     padding-top: 10%;
@@ -204,7 +203,9 @@
     text-align: center;
 }
 
-.content-margin {padding: 1%;}
+.content-margin {
+    padding: 1%;
+}
 
 .subject-box {
     color: #31BB9B;
@@ -229,7 +230,22 @@ button[type="submit"] {
     background-color: #ffcc33;
 }
 
-.contact-details { background-color: #be1e1e;}
+.contact-details {
+    background-color: #be1e1e;
+}
+
+.image-small-thumb {
+    width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+
+}
+
+/*------------------------------Contact form media queries*/
+
 
 /*------------------------------Footer*/
 
