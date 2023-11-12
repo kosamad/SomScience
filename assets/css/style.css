@@ -189,6 +189,23 @@
 
 /*------------------------------Contact form*/
 
+.bg-contact-image{
+  height: 60%;
+    }
+
+        
+.contact-bg-colour {background-color: #8D236B;}
+
+.container-outer {margin: 200px;}
+
+.center-form {
+    padding-top: 10%;
+    max-width: 90%;
+    text-align: center;
+}
+
+.content-margin {padding: 1%;}
+
 .subject-box {
     color: #31BB9B;
 }
@@ -197,26 +214,23 @@
     color: #31BB9B;
 }
 
-.bg-colour-contact {background-color: #8D236B;}
-
-.bg-image-contact {text-align: center;}
-
-.contact-heading{font-family: "roboto-slab",
-    sans-serif;
-font-weight: 200;
-margin-top: 100px;
-margin-bottom: 20px;}
-
-.center-form{ padding-top: 10px;
-margin: 0 auto;
-max-width:70%;}
+.contact-heading {
+    font-family: "roboto-slab",
+        sans-serif;
+    font-weight: 200;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color:#31BB9B;
+    color: #31BB9B;
     background-color: #ffcc33;
 }
+
+.contact-details { background-color: #be1e1e;}
+
 /*------------------------------Footer*/
 
 footer {
