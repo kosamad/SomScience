@@ -36,7 +36,6 @@
 
 /*------------------------------Hero Image*/
 
-
 #hero-image {
     height: 85vh;
     width: 100%;
@@ -45,12 +44,15 @@
     position: relative;
 }
 
+
 .hero-title {
     font-family: "roboto-slab", sans-serif;
     font-size: 3.5vw;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
+    margin: 0;
+    padding-top: 20px;
 
 }
 
@@ -59,6 +61,7 @@
     font-size: 2.5vw;
     text-align: center;
     color: #ffffff;
+
 }
 
 #cover-text {
@@ -72,12 +75,14 @@
     border-radius: 1.5rem
 }
 
+
 /* If the screen size is 1024px wide or less */
+
 
 @media screen and (max-width: 1024px) {
     .hero-title {
         font-size: 4.7vw;
-        padding: 10px 10px 5px 10px;
+        padding: 20px 10px 5px 10px;
     }
 
     .hero-slogan {
@@ -93,11 +98,14 @@
     }
 }
 
+
+
 /* If the screen size is 800px wide or less */
+
 @media screen and (max-width: 800px) {
     .hero-title {
         font-size: 6vw;
-        padding: 10px 10px 5px 10px;
+        padding: 10px 10px 0 10px;
     }
 
     .hero-slogan {
@@ -106,19 +114,22 @@
 
     #cover-text {
         padding: 15px 15px 15px;
-        width: 66%;
-        height: 20vh;
-        left: 32%;
+        width: 50%;
+        height: 17vh;
+        left: 40%;
         top: 73%;
     }
 }
+
+
+
 
 /* If the screen size is 425px wide or less */
 
 @media screen and (max-width: 425px) {
     .hero-title {
         font-size: 8vw;
-        padding: 10px 10px 5px 10px;
+        padding: 10px 10px 0 10px;
     }
 
     .hero-slogan {
@@ -126,9 +137,9 @@
     }
 
     #cover-text {
-        padding: 15px 15px 15px;
+        padding: 20px 15px 15px;
         width: 66%;
-        height: 20%;
+        height: 15vh;
         left: 32%;
         top: 75%;
     }
@@ -172,15 +183,19 @@
     margin-top: 20px;
 }
 
-.rounded-edge {border-radius: 1.5rem;}
+.rounded-edge {
+    border-radius: 1.5rem;
+}
 
 /*------------------------------Contact form*/
 
-.subject-box{color:#31BB9B;}
+.subject-box {
+    color: #31BB9B;
+}
 
 .form-control::placeholder {
-        color: #31BB9B;
-    }
+    color: #31BB9B;
+}
 
 /*------------------------------Footer*/
 
