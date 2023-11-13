@@ -187,6 +187,25 @@
     border-radius: 1.5rem;
 }
 
+/*------------------------------visit page*/
+
+
+#visit-left {background-color: blue;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;}
+
+    #visit-right {
+     background-color: rgb(165, 27, 34);
+    height: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+        }
+
 /*------------------------------Contact form*/
 
 .contact-bg-colour {
