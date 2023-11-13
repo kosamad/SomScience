@@ -190,11 +190,14 @@
 /*------------------------------Contact form*/
 
 .contact-bg-colour {
-    background-color: #8D236B;
+    background-color: rgba(141, 35, 107, 0.9);
 }
 
 .container-outer {
-    margin: 10%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .center-form {
@@ -208,43 +211,61 @@
 }
 
 .subject-box {
-    color: #31BB9B;
+    color: rgb(64 117 161);
 }
 
 .form-control::placeholder {
-    color: #31BB9B;
+    color: rgb(64 117 161);
 }
 
 .contact-heading {
     font-family: "roboto-slab",
         sans-serif;
-    font-weight: 200;
+    font-weight: 600;
     margin-top: 100px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #31BB9B;
-    background-color: #ffcc33;
+    color: #ffffff);
+    background-color: rgb(64 117 161);
 }
 
 .contact-details {
     background-color: #be1e1e;
 }
 
+.contact-detail-h4{
+    font-family: "roboto-slab",
+        sans-serif;
+    margin-left: 5%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.contact-detail-p
+{font-family: "roboto-slab",
+        sans-serif;
+    margin-left: 5%;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 0.5%;
+    }
+
+.contact-margin {margin-bottom: 3%;}
+
+/*------------------------------Contact form media queries*/
 .image-small-thumb {
     width: 40vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-
-
 }
-
-/*------------------------------Contact form media queries*/
 
 
 /*------------------------------Footer*/
