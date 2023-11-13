@@ -169,8 +169,10 @@
 
 /*------------------------------visit page*/
 
+/*------------------------------prices*/
+
 .visit-header4 {
-    color:#000000;
+    color: #000000;
     font-size: 20px;
     font-weight: 400;
     padding: 5% 0 5%;
@@ -193,7 +195,6 @@
     background-color: rgba(141, 35, 107, 0.5);
     margin: 2%;
     padding: 20px;
-    float: left;
     font-family: "roboto-slab", sans-serif;
 
 }
@@ -204,16 +205,10 @@
     background: url("../images/pexels-cottonbro-studio-8142680.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
-    margin-left:0;
+    margin-left: 0;
+    margin-top: 2%;
 }
 
-#find-background {
-    height: 80vh;
-    width: 100%;
-    background-color: #8D236B;
-    background-size: cover;
-    position: absolute;
-}
 
 .astrix {
     color: #adebdc;
@@ -241,7 +236,7 @@
     color: #ffffff;
 }
 
-/*------------------------------visit page media query*/
+/*------------------------------prices media query*/
 
 @media screen and (max-width: 990px) {
     #visit-left {
@@ -252,7 +247,7 @@
     }
 
     .visit-header4-open {
-        color:#000000;
+        color: #000000;
         font-size: 20px;
         font-weight: 400;
         padding: 6% 0 5%;
@@ -269,120 +264,203 @@
     }
 }
 
-    @media screen and (max-width: 440px) {
-        .visit-header4-open {
-            color:
-                #000000;
-            font-size: 20px;
-            font-weight: 400;
-            padding: 20% 0 5%;
-        }
+@media screen and (max-width: 440px) {
+    .visit-header4-open {
+        color:
+            #000000;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 20% 0 5%;
+    }
+}
+
+/*------------------------------other facilities*/
+
+#other-fac-background {
+    height: 65vh;
+    width: 100%;
+    background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin-left: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#visit-right {
+    background-color: rgba(64, 117, 161, 0.5);
+    margin: 2%;
+    padding: 20px;
+    font-family: "roboto-slab",
+        sans-serif;
+    margin: 2% 2% 2% 64.5%;
+}
+
+.facilities-list {
+    margin-left: 1%;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0.5%;
+    color: #ffffff;
+}
+
+.facilities-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*------------------------------other facilities media query*/
+
+@media screen and (max-width: 990px) {
+    #visit-right {
+        background-color: rgba(64, 117, 161, 0.5);
+        margin: 0 auto;
+        padding: 20px;
+        font-family: "roboto-slab", sans-serif;
     }
 
-    /*------------------------------Contact form*/
-
-    .contact-bg-colour {
-        background-color: rgba(141, 35, 107, 0.9);
+    .visit-header4-open {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 6% 0 5%;
     }
 
-    .container-outer {
-        margin-top: 10%;
-        margin-bottom: 4%;
-        margin-left: 10%;
-        margin-right: 10%;
+    #other-fac-background {
+        height: 55vh;
+        width: 100%;
+        background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
+        background-size: cover;
+        position: relative;
+        margin-left: 0;
+        margin-top: 2%;
     }
+}
 
-    .center-form {
-        padding-top: 10%;
-        max-width: 90%;
-        text-align: center;
+@media screen and (max-width: 760px) {
+    .visit-header4-open {
+        color:
+            #000000;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 10% 0 5%;
     }
+}
 
-    .content-margin {
-        padding: 1%;
+@media screen and (max-width: 440px) {
+    .visit-header4-open {
+        color:
+            #000000;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 20% 0 5%;
     }
+}
 
-    .subject-box {
-        color: rgb(64 117 161);
-    }
+/*------------------------------Contact form*/
 
-    .form-control::placeholder {
-        color: rgb(64 117 161);
-    }
+.contact-bg-colour {
+    background-color: rgba(141, 35, 107, 0.9);
+}
 
-    .contact-heading {
-        font-family: "roboto-slab",
-            sans-serif;
-        font-weight: 600;
-        margin-top: 100px;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-    }
+.container-outer {
+    margin-top: 10%;
+    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
-    button[type="submit"] {
-        margin-top: 15px;
-        margin-bottom: 20px;
-        color: #ffffff;
-        background-color: rgb(64 117 161);
-    }
+.center-form {
+    padding-top: 10%;
+    max-width: 90%;
+    text-align: center;
+}
 
-    .contact-details {
-        background-color: #be1e1e;
-    }
+.content-margin {
+    padding: 1%;
+}
 
-    .contact-detail-h4 {
-        font-family: "roboto-slab",
-            sans-serif;
-        margin-left: 5%;
-        font-weight: 600;
-        text-transform: uppercase;
-        font-size: 18px;
-    }
+.subject-box {
+    color: rgb(64 117 161);
+}
 
-    .contact-detail-p {
-        font-family: "roboto-slab",
-            sans-serif;
-        margin-left: 5%;
-        font-weight: 300;
-        font-size: 15px;
-        margin-bottom: 0.5%;
-    }
+.form-control::placeholder {
+    color: rgb(64 117 161);
+}
 
-    .contact-margin {
-        margin-bottom: 3%;
-    }
+.contact-heading {
+    font-family: "roboto-slab",
+        sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
 
-    /*------------------------------Contact form media queries*/
-    .image-small-thumb {
-        width: 40vw;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
-    }
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: rgb(64 117 161);
+}
+
+.contact-details {
+    background-color: #be1e1e;
+}
+
+.contact-detail-h4 {
+    font-family: "roboto-slab",
+        sans-serif;
+    margin-left: 5%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.contact-detail-p {
+    font-family: "roboto-slab",
+        sans-serif;
+    margin-left: 5%;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 0.5%;
+}
+
+.contact-margin {
+    margin-bottom: 3%;
+}
+
+/*------------------------------Contact form media queries*/
+.image-small-thumb {
+    width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
 
 
-    /*------------------------------Footer*/
+/*------------------------------Footer*/
 
-    footer {
-        background-color: #31BB9B;
-        height: 80px;
-        margin: 0%;
-    }
+footer {
+    background-color: #31BB9B;
+    height: 80px;
+    margin: 0%;
+}
 
-    .social-media-icon i {
-        color: #8D236B;
-        padding: 20px 0;
-        height: 75px;
-        width: 75px;
-        font-size: 35px;
-        transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -webkit-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
+.social-media-icon i {
+    color: #8D236B;
+    padding: 20px 0;
+    height: 75px;
+    width: 75px;
+    font-size: 35px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 
-    }
+}
 
-    .social-media-icon i:hover {
-        color: #ffcc33;
-    }
+.social-media-icon i:hover {
+    color: #ffcc33;
+}
