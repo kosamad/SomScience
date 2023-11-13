@@ -357,6 +357,90 @@
     }
 }
 
+/*------------------------------facilities map*/
+
+#visit-map {
+    background-color: rgba(49, 187, 155, 0.9);
+    margin: 2%;
+    padding: 20px;
+    font-family: "roboto-slab",
+        sans-serif;
+    position:absolute;
+}
+
+
+
+.google-map {height: 100%;
+    width: 100%;}
+
+#map-background{
+height: 65vh;
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.address-space{padding-top: 7%;}
+
+
+.contact-button {padding-top: 2%;
+    margin: 7% 0;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+/*------------------------------map facilities media query*/
+
+@media screen and (max-width: 990px) {
+           #visit-map {
+            background-color: rgba(49, 187, 155, 0.9);
+            margin: 0 auto;
+            padding: 20px;
+            font-family: "roboto-slab",
+                sans-serif;
+            position: absolute;
+        }
+
+    .visit-header4-open {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 6% 0 5%;
+    }
+
+    #other-fac-background {
+        height: 55vh;
+        width: 100%;
+        background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
+        background-size: cover;
+        position: relative;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .visit-header4-open {
+        color:
+            #000000;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 10% 0 5%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .visit-header4-open {
+        color:
+            #000000;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 20% 0 5%;
+    }
+}
+
 /*------------------------------Contact form*/
 
 .contact-bg-colour {
