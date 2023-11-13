@@ -3,15 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lora:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600;700;800&display=swap');
 
 
-/*-----------------------------
-
-
-    {
-    font-family: 'Noto Sans',
-        sans-serif;
-}
- not sure if i need to load the font code anywhere. this is what i've chosen
-
 /*------------------------------Header*/
 
 
@@ -149,19 +140,6 @@
 
 
 
-
-
-/*------------------------------
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    color: #31BB9B;
-}
-/*------------------------------Hero Image*/
-
-
 /*------------------------------Home page showcase boxes*/
 
 .showbox-container {
@@ -192,16 +170,14 @@
 /*------------------------------visit page*/
 
 .visit-header4 {
-    color:
-        #000000;
+    color:#000000;
     font-size: 20px;
     font-weight: 400;
     padding: 5% 0 5%;
 }
 
 .visit-header4-open {
-    color:
-        #000000;
+    color: #000000;
     font-size: 20px;
     font-weight: 400;
     padding: 10% 0 5%;
@@ -211,9 +187,7 @@
     padding-right: 10px;
 }
 
-.price-container {
-    position: relative;
-}
+
 
 #visit-left {
     background-color: rgba(141, 35, 107, 0.5);
@@ -228,6 +202,15 @@
     height: 80vh;
     width: 100%;
     background: url("../images/pexels-cottonbro-studio-8142680.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin-left:0;
+}
+
+#find-background {
+    height: 80vh;
+    width: 100%;
+    background-color: #8D236B;
     background-size: cover;
     position: absolute;
 }
@@ -245,7 +228,7 @@
 .table-feat {
     font-weight: 600;
     margin-top: 3%;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .open-p {
@@ -269,8 +252,7 @@
     }
 
     .visit-header4-open {
-        color:
-            #000000;
+        color:#000000;
         font-size: 20px;
         font-weight: 400;
         padding: 6% 0 5%;
@@ -285,6 +267,7 @@
         font-weight: 400;
         padding: 10% 0 5%;
     }
+}
 
     @media screen and (max-width: 440px) {
         .visit-header4-open {
