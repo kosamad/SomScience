@@ -365,16 +365,18 @@
     padding: 20px;
     font-family: "roboto-slab",
         sans-serif;
-    position:absolute;
+    position: absolute;
 }
 
 
 
-.google-map {height: 100%;
-    width: 100%;}
+.google-map {
+    height: 100%;
+    width: 100%;
+}
 
-#map-background{
-height: 65vh;
+#map-background {
+    height: 65vh;
     width: 100%;
     position: relative;
     margin-left: 0;
@@ -382,10 +384,13 @@ height: 65vh;
     margin-bottom: 2%;
 }
 
-.address-space{padding-top: 7%;}
+.address-space {
+    padding-top: 7%;
+}
 
 
-.contact-button {padding-top: 2%;
+.contact-button {
+    padding-top: 2%;
     margin: 7% 0;
     font-weight: 600;
     background-color: #ffffff;
@@ -394,14 +399,14 @@ height: 65vh;
 /*------------------------------map facilities media query*/
 
 @media screen and (max-width: 990px) {
-           #visit-map {
-            background-color: rgba(49, 187, 155, 0.9);
-            margin: 0 auto;
-            padding: 20px;
-            font-family: "roboto-slab",
-                sans-serif;
-            position: absolute;
-        }
+    #visit-map {
+        background-color: rgba(49, 187, 155, 0.9);
+        margin: 0 auto;
+        padding: 20px;
+        font-family: "roboto-slab",
+            sans-serif;
+        position: absolute;
+    }
 
     .visit-header4-open {
         color: #000000;
@@ -443,21 +448,20 @@ height: 65vh;
 
 /*------------------------------Contact form*/
 
-.contact-bg-colour {
-    background-color: rgba(141, 35, 107, 0.9);
+.picture-contact {
+    padding: 5%;
 }
 
-.container-outer {
-    margin-top: 10%;
-    margin-bottom: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
+.contact-bg {
+    background-color: rgba(141, 35, 107, 0.5);
+    margin-bottom;
+    5%;
 }
 
 .center-form {
-    padding-top: 10%;
-    max-width: 90%;
     text-align: center;
+    padding-top: 7%;
+    max-width: 62.5%;
 }
 
 .content-margin {
@@ -472,55 +476,105 @@ height: 65vh;
     color: rgb(64 117 161);
 }
 
-.contact-heading {
+.contact-detail-h3 {
+    color: #ffffff;
+    font-family: "cookie", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+.contact-detail-h4 {
+    color: rgb(64 117 161);
     font-family: "roboto-slab",
         sans-serif;
     font-weight: 600;
-    margin-top: 100px;
-    margin-bottom: 20px;
     text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+
+.contact-detail-p {
+    color: #ffffff;
+    font-family: "roboto-slab",
+        sans-serif;
+    margin-left: 2%;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: none;
+
 }
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
     color: #ffffff;
     background-color: rgb(64 117 161);
 }
 
-.contact-details {
-    background-color: #be1e1e;
-}
 
-.contact-detail-h4 {
-    font-family: "roboto-slab",
-        sans-serif;
-    margin-left: 5%;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 18px;
-}
+/*------
 
-.contact-detail-p {
-    font-family: "roboto-slab",
-        sans-serif;
-    margin-left: 5%;
-    font-weight: 300;
-    font-size: 15px;
-    margin-bottom: 0.5%;
-}
 
-.contact-margin {
-    margin-bottom: 3%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 
 /*------------------------------Contact form media queries*/
-.image-small-thumb {
-    width: 40vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+@media screen and (max-width: 1024px) {
+    .center-form {
+        text-align: center;
+        padding-top: 5%;
+        max-width: 62.5%;
+    }
+
+
+    button[type="submit"] {
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .center-form {
+        text-align: center;
+        padding-top: 7%;
+        max-width: 62.5%;
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+
+    .picture-contact {
+        padding: 5%;
+        width: 40vw;
+        margin: 0 auto;
+        ;
+    }
+
+    .center-form {
+        padding: 4%;
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
 }
 
 
