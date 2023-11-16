@@ -196,7 +196,7 @@
     margin: 2%;
     padding: 20px;
     font-family: "roboto-slab", sans-serif;
-
+    border-radius: 1.5rem
 }
 
 #prices-background {
@@ -207,6 +207,7 @@
     position: relative;
     margin-left: 0;
     margin-top: 2%;
+    border-radius: 1.5rem
 }
 
 
@@ -236,43 +237,6 @@
     color: #ffffff;
 }
 
-/*------------------------------prices media query*/
-
-@media screen and (max-width: 990px) {
-    #visit-left {
-        background-color: rgba(141, 35, 107, 0.4);
-        margin: 0 auto;
-        padding: 20px;
-        font-family: "roboto-slab", sans-serif;
-    }
-
-    .visit-header4-open {
-        color: #000000;
-        font-size: 20px;
-        font-weight: 400;
-        padding: 6% 0 5%;
-    }
-}
-
-@media screen and (max-width: 760px) {
-    .visit-header4-open {
-        color:
-            #000000;
-        font-size: 20px;
-        font-weight: 400;
-        padding: 10% 0 5%;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    .visit-header4-open {
-        color:
-            #000000;
-        font-size: 20px;
-        font-weight: 400;
-        padding: 20% 0 5%;
-    }
-}
 
 /*------------------------------other facilities*/
 
@@ -285,6 +249,7 @@
     margin-left: 0;
     margin-top: 2%;
     margin-bottom: 2%;
+    border-radius: 1.5rem
 }
 
 #visit-right {
@@ -294,6 +259,7 @@
     font-family: "roboto-slab",
         sans-serif;
     margin: 2% 2% 2% 64.5%;
+    border-radius: 1.5rem
 }
 
 .facilities-list {
@@ -309,54 +275,6 @@
     font-size: 16px;
 }
 
-/*------------------------------other facilities media query*/
-
-@media screen and (max-width: 990px) {
-    #visit-right {
-        background-color: rgba(64, 117, 161, 0.5);
-        margin: 0 auto;
-        padding: 20px;
-        font-family: "roboto-slab", sans-serif;
-    }
-
-    .visit-header4-open {
-        color: #000000;
-        font-size: 20px;
-        font-weight: 400;
-        padding: 6% 0 5%;
-    }
-
-    #other-fac-background {
-        height: 55vh;
-        width: 100%;
-        background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
-        background-size: cover;
-        position: relative;
-        margin-left: 0;
-        margin-top: 2%;
-    }
-}
-
-@media screen and (max-width: 760px) {
-    .visit-header4-open {
-        color:
-            #000000;
-        font-size: 20px;
-        font-weight: 400;
-        padding: 10% 0 5%;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    .visit-header4-open {
-        color:
-            #000000;
-        font-size: 20px;
-        font-weight: 400;
-        padding: 20% 0 5%;
-    }
-}
-
 /*------------------------------facilities map*/
 
 #visit-map {
@@ -366,8 +284,8 @@
     font-family: "roboto-slab",
         sans-serif;
     position: absolute;
+    border-radius: 1.5rem
 }
-
 
 
 .google-map {
@@ -396,23 +314,22 @@
     background-color: #ffffff;
 }
 
-/*------------------------------map facilities media query*/
+/*------------------------------visit page media query*/
 
 @media screen and (max-width: 990px) {
-    #visit-map {
-        background-color: rgba(49, 187, 155, 0.9);
+    #visit-left {
+        background-color: rgba(141, 35, 107, 0.4);
         margin: 0 auto;
         padding: 20px;
-        font-family: "roboto-slab",
-            sans-serif;
-        position: absolute;
+        font-family: "roboto-slab", sans-serif;
     }
 
     .visit-header4-open {
-        color: #000000;
-        font-size: 20px;
-        font-weight: 400;
         padding: 6% 0 5%;
+    }
+
+    #visit-right {
+        margin: 0 auto;
     }
 
     #other-fac-background {
@@ -423,28 +340,34 @@
         position: relative;
         margin-left: 0;
         margin-top: 2%;
+        border-radius: 1.5rem
+    }
+
+    #visit-map {
+        background-color: rgba(49, 187, 155, 0.9);
+        margin: 0 auto;
+        padding: 20px;
+        font-family: "roboto-slab",
+            sans-serif;
+        position: absolute;
     }
 }
 
 @media screen and (max-width: 760px) {
     .visit-header4-open {
-        color:
-            #000000;
-        font-size: 20px;
-        font-weight: 400;
         padding: 10% 0 5%;
     }
+
 }
 
 @media screen and (max-width: 440px) {
     .visit-header4-open {
-        color:
-            #000000;
-        font-size: 20px;
-        font-weight: 400;
         padding: 20% 0 5%;
     }
+
 }
+
+
 
 /*------------------------------Contact form*/
 
@@ -515,28 +438,6 @@ button[type="submit"] {
     padding: 10%;
     background-color: #c691b5;
 }
-
-/*------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
 
 /*------------------------------Contact form media queries*/
 @media screen and (max-width: 1024px) {
