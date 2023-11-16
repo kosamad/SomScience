@@ -167,6 +167,14 @@
     border-radius: 1.5rem;
 }
 
+
+/*------------------------------inside page*/
+
+
+.inside-bg {background-color: #c691b5;
+margin: 0 auto;}
+
+
 /*------------------------------visit page*/
 
 /*------------------------------prices*/
@@ -278,12 +286,12 @@
 
 #visit-map {
     background-color: rgba(49, 187, 155, 0.9);
-   padding: 20px;
-   margin: 2% 3% 2% 1%;
-   padding: 20px;
-font-family: "roboto-slab",
+    padding: 20px;
+    margin: 2% 3% 2% 1%;
+    padding: 20px;
+    font-family: "roboto-slab",
         sans-serif;
-border-radius: 1.5rem;
+    border-radius: 1.5rem;
 }
 
 
@@ -295,7 +303,7 @@ border-radius: 1.5rem;
 
 #map-background {
     height: 65vh;
-     margin-top: 2%;
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 
@@ -340,7 +348,7 @@ border-radius: 1.5rem;
         border-radius: 1.5rem
     }
 
-       }
+}
 
 @media screen and (max-width: 760px) {
     .visit-header4-open {
@@ -354,10 +362,12 @@ border-radius: 1.5rem;
         padding: 20% 0 5%;
     }
 
-        #map-background {height: 40vh;
-            margin-top: 2%;
-            margin-bottom: 2%;
+    #map-background {
+        height: 40vh;
+        margin-top: 2%;
+        margin-bottom: 2%;
 
+    }
 }
 
 
