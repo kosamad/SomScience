@@ -453,9 +453,7 @@
 }
 
 .contact-bg {
-    background-color: rgba(141, 35, 107, 0.5);
-    margin-bottom;
-    5%;
+    background-color: #c691b5;
 }
 
 .center-form {
@@ -513,6 +511,11 @@ button[type="submit"] {
 }
 
 
+.page-space {
+    padding: 10%;
+    background-color: #c691b5;
+}
+
 /*------
 
 
@@ -538,9 +541,7 @@ button[type="submit"] {
 /*------------------------------Contact form media queries*/
 @media screen and (max-width: 1024px) {
     .center-form {
-        text-align: center;
         padding-top: 5%;
-        max-width: 62.5%;
     }
 
 
@@ -570,9 +571,15 @@ button[type="submit"] {
 
     .center-form {
         padding: 4%;
-        text-align: center;
+
         max-width: 80%;
         margin: 0 auto;
+    }
+
+    button[type="submit"] {
+
+        margin-bottom: 15%;
+
     }
 
 }
