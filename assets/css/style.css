@@ -182,20 +182,16 @@
 .inside-nav {text-decoration: none;
 color: #ffffff;}
 
-.discover-bg {
-    background-color: #ffcc33;
-    padding: 0.5%;
-}
-
 .discover-bg{
     background-color: rgba(64, 117, 161, 0.5);
     padding: 5% 2% 10%;
 }
 
-.cafe-bg{background-color: rgba(255, 204, 51, 0.5);
+.cafe-bg{background-color: rgba(205, 32, 38, 0.5);
     padding: 5% 2% 10%;}
 
-
+.quiet-bg {background-color:rgba(255, 204, 51, 0.5);
+    padding: 5% 2% 10%;}
 
 .lab-bg {background-color: rgba(69, 194, 165, 0.5);
     padding: 5% 2% 10%;}
