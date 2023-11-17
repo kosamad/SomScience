@@ -179,15 +179,26 @@
     background-color: #c691b5;
 }
 
+.inside-nav {text-decoration: none;
+color: #ffffff;}
+
 .discover-bg {
     background-color: #ffcc33;
     padding: 0.5%;
 }
 
-.inside-bg {
-    background-color: #8D236B;
+.discover-bg{
+    background-color: rgba(64, 117, 161, 0.5);
     padding: 5% 2% 10%;
 }
+
+.cafe {background-color: #ffcc33;
+    padding: 5% 2% 10%;}
+
+
+
+.lab-bg {background-color: rgba(69, 194, 165, 0.5);
+    padding: 5% 2% 10%;}
 
 .inside-outer {
     padding: 15px;
