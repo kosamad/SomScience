@@ -235,14 +235,17 @@ color: #ffffff;}
 .inside-p {
     text-align: justify;
     padding: 2%;
+    line-height: 30px;
 }
 
 .button-top { text-align: center;
-    margin-top: 8%;
+    margin-top: 5%;
     }
 
 .btn-inside{background-color:#c691b5;
 color:#ffffff;}
+
+.bold-text {font-weight: bold;}
        
 
 /*------------------------------inside page media query*/
