@@ -169,36 +169,87 @@
 
 
 /*------------------------------inside page*/
-.inside-h-bg {background-color: #c691b5;
-text-align: center;
-padding: 2% 0;}
-
-.about-bg {background-color: #c691b5;
+.inside-h-bg {
+    background-color: #c691b5;
+    text-align: center;
+    padding: 2% 0;
 }
 
-.discover-bg {background-color:#ffcc33;
+.about-bg {
+    background-color: #c691b5;
+}
+
+.discover-bg {
+    background-color: #ffcc33;
     padding: 0.5%;
+}
+
+.inside-bg {
+    background-color: #8D236B;
+    padding: 5% 2% 10%;
+}
+
+.inside-outer {
+    padding: 15px;
+}
+
+.inside-container {
+    text-align: justify;
+    margin-top: 20px;
 }
 
 .inside-header {
     color: #000000;
     font-size: 20px;
     font-weight: 400;
+    color: #ffffff;
 }
 
-.inside-box-left{
+.inside-box-left {
     padding: 1% 1% 1% 2%;
 }
 
-.inside-box-center{padding: 1% 0.5% 1% 0.5%;}
+.inside-box-center {
+    padding: 1% 0.5% 1% 0.5%;
+}
 
-.inside-sub-header{color: #000000;
-    font-size: 40px;
-   text-align: center;
-font-family: "cookie",
-sans-serif;}
+.inside-sub-header {
+    color: #000000;
+    font-size: 200px;
+    text-align: center;
+    font-family: "cookie",
+        sans-serif;
+    padding: 2%;
+    margin: 0 auto;
+}
 
-.inside-p {text-align: justify;}
+.inside-p {
+    text-align: justify;
+    padding: 2%;
+}
+
+/*------------------------------inside page media query*/
+@media screen and (max-width: 590px) {
+    .inside-sub-header {
+
+        font-size: 100px;
+        text-align: center;
+        font-family: "cookie",
+            sans-serif;
+        padding: 2%;
+        margin: 0 auto;
+    }
+
+    .container-fluid {
+        padding-right: 0;
+    }
+
+    .row {
+        margin-right: 0;
+    }
+}
+
+
 
 /*------------------------------visit page*/
 
