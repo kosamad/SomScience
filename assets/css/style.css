@@ -168,6 +168,13 @@
 }
 
 
+.index-nav {text-decoration: none;
+    color: #000000 ;}
+
+.index-nav:hover {
+    color: #31BB9B;
+}
+
 /*------------------------------inside page*/
 .inside-h-bg {
     background-color: #c691b5;
