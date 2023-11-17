@@ -169,11 +169,36 @@
 
 
 /*------------------------------inside page*/
+.inside-h-bg {background-color: #c691b5;
+text-align: center;
+padding: 2% 0;}
 
+.about-bg {background-color: #c691b5;
+}
 
-.inside-bg {background-color: #c691b5;
-margin: 0 auto;}
+.discover-bg {background-color:#ffcc33;
+    padding: 0.5%;
+}
 
+.inside-header {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.inside-box-left{
+    padding: 1% 1% 1% 2%;
+}
+
+.inside-box-center{padding: 1% 0.5% 1% 0.5%;}
+
+.inside-sub-header{color: #000000;
+    font-size: 40px;
+   text-align: center;
+font-family: "cookie",
+sans-serif;}
+
+.inside-p {text-align: justify;}
 
 /*------------------------------visit page*/
 
