@@ -514,12 +514,24 @@
 
 /*------------------------------Contact form*/
 
+.question-header {
+    color: #000000;
+    font-size: 150px;
+    text-align: center;
+    font-family: "cookie",
+        sans-serif;
+    padding: 2%;
+    margin: 0 auto;
+}
+
 .picture-contact {
     padding: 5%;
 }
 
 .contact-bg {
     background-color: #c691b5;
+    margin-top: 5vw;
+    padding-top: 15vw;
 }
 
 .center-form {
@@ -595,6 +607,11 @@ button[type="submit"] {
 }
 
 @media screen and (max-width: 980px) {
+
+    .question-header {
+        font-size: 100px;
+    }
+
     .center-form {
         text-align: center;
         padding-top: 7%;
@@ -605,6 +622,12 @@ button[type="submit"] {
 }
 
 @media screen and (max-width: 770px) {
+
+
+    .question-header {
+        font-size: 15vw;
+        padding-top: 10vw;
+    }
 
     .picture-contact {
         padding: 5%;
