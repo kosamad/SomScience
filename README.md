@@ -99,7 +99,6 @@ Based on the score, the opportunities were sumarised into their roll out phase.
 
 The website will consist of an introductory page showcasing the main features of the museum with corresponding (linked pages) to different areas. A total of 4 pages. This will provide users with an overview of all the features of the museum, giving multiple opportunities to inspire a visit with visually captivating images.
 
-
 ### Pages
 
   1. Home (index) page
@@ -107,6 +106,8 @@ The website will consist of an introductory page showcasing the main features of
      * Summary of what's inside the museum/leading info to get users to explore further. Linked pages.
   2. Inside
      * Sections that explain key features of the muesum with images
+     * ordered according to their ability to intice and inspire user
+     * sub nav menu within this section to users can see what the page (and museum) has to offer quickly, without having to scroll all the way through.
   3. Visit
      * Sections informing users about admission prices, other facilities and how to find us (map).
      * Link to contact page.
@@ -117,4 +118,75 @@ The website will consist of an introductory page showcasing the main features of
      * Sticky navigation bar that toggles on small screens inc logo which takes back to home screen
      * Footer containing the museum's social media links (as this site is fictional, these will link to the home pages)
 
-## Skeleton
+## SKELETON
+
+### Wireframes
+
+Wireframes outline how the content will be veiwed on different devices. They were created using balsamic.
+
+1. home page
+
+![homepage(index)](documentation/wireframes/home-wireframe.png)
+
+2. inside page
+
+![inside page(index)](documentation/wireframes/inside_wireframe.png)
+
+3. visit page
+
+
+[home page desktop]
+[home page mobile]
+[contact page desktop]
+[inside page mobile]
+
+Each page will be responsive and the user will be able to navigate between pages in multiple ways. Clicking the:
+
+* Logo and home nav bar naviagtes to home page (index)
+* Key work titles on home page will navigate to inside page, relavent section
+* The inside page will have navigation to each inside section + a "back to top"
+
+## SURFACE
+
+### Logo
+
+ A bright lightbulb image was found on vecteezy for the logo. The lightbulb inspiring an "idea" and has associations with thinking and science.
+
+ ![SomScience Logo](assets/images/vecteezy_bulb-technology-modified.jpg)
+
+### Colour Scheme
+
+ Using ColorZilla I chose the key colours from the logo to use throughout the website. The emphasis being on bright, fun, fresh, engaging.
+
+ I arranged them to see how they would look together using Colour pallet.
+
+ ![SomScience Colour Scheme](documentation/SomScience.png)
+
+* I have used `#31BB9B` as the primary colour throughout the site. It is subtle and stands out against multiple picture colours. Also it is very gender neutral.
+* I have used `#8D236B` as my secondary colour as it best complements my priamry colour and works with subsequnt colours on the page.
+* I have used muted versions of `#CD2026`, `#4075A1` and `#FFCC33` to highlight different areas of a page.
+
+### Typography
+
+Google fonts was used to import fonts for this site. I have used a combination of roboto and cookie to give a visual balance on the page and convey that this museum is factual but remains fun.
+
+* roboto is a clean, simple, educated font which stands out and is clearly readable even in smaller fonts.
+  
+  ![roboto font example](documentation/roboto_font.PNG)
+
+* cookie is a caligraphy style and gives the more creative, spoken, fun elements to the page.
+
+  ![cookie font example](documentation/cookie_font.PNG)
+
+### Imagery
+
+  Images used throughout the site aim to inspire and inform the user what they could expect from the museum.
+
+  The hero image, as it is the first thing a user sees, was chosen as it encompasses many of the values of the museum: investigation (magnefying glass), smiles (fun) and children.
+
+  Other images were chosen to ensure they potrayed a variety of colours, interests and ethnicities.
+
+
+  
+
+
