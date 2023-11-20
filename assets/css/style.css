@@ -40,7 +40,7 @@
     background: url("../images/pexels-yan-krukau-8617817.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -94,7 +94,7 @@
     #cover-text {
 
         left: 57%;
-        top: 75%;
+        top: 60%;
         width: 38vw;
         height: 15vw;
     }
@@ -119,7 +119,7 @@
         width: 50%;
         height: 17vw;
         left: 40%;
-        top: 75%;
+        top: 65%;
     }
 }
 
@@ -140,7 +140,7 @@
     #cover-text {
         width: 90vw;
         height: 30vw;
-        top: 80%;
+        top: 70%;
         left: 3%;
     }
 }
@@ -319,13 +319,12 @@
     color: #000000;
     font-size: 20px;
     font-weight: 400;
-    padding: 10% 0 5%;
+    padding: 4vw 0 2vw;
 }
 
 .visit-icon-gap {
     padding-right: 10px;
 }
-
 
 
 #visit-left {
@@ -337,13 +336,12 @@
 }
 
 #prices-background {
-    height: 80vh;
     width: 100%;
     background: url("../images/pexels-cottonbro-studio-8142680.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
     margin-left: 0;
-    margin-top: 2%;
+    margin-top: 5%;
     border-radius: 1.5rem
 }
 
@@ -378,13 +376,12 @@
 /*------------------------------other facilities*/
 
 #other-fac-background {
-    height: 65vh;
     width: 100%;
     background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
     margin-left: 0;
-    margin-top: 2%;
+    margin-top: 2vw;
     border-radius: 1.5rem
 }
 
@@ -431,7 +428,6 @@
 }
 
 #map-background {
-    height: 65vh;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -451,6 +447,11 @@
 /*------------------------------visit page media query*/
 
 @media screen and (max-width: 990px) {
+
+    #prices-background {
+        margin-top: 8vw;
+    }
+
     #visit-left {
         background-color: rgba(141, 35, 107, 0.4);
         margin: 0 auto;
@@ -467,7 +468,6 @@
     }
 
     #other-fac-background {
-        height: 55vh;
         width: 100%;
         background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
         background-size: cover;
@@ -480,9 +480,20 @@
 }
 
 @media screen and (max-width: 760px) {
+
+    #prices-background {
+        margin-top: 10%
+    }
+
     .visit-header4-open {
         padding: 10% 0 5%;
     }
+
+    #visit-map {
+        width: 97%;
+        margin-left: 2vw;
+    }
+
 
 }
 
