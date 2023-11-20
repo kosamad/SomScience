@@ -1,6 +1,6 @@
 /*------------------------------General Styling*/
 
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lora:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@300;400;500&display=swap');
 
 
 /*------------------------------Header*/
@@ -11,10 +11,10 @@
 
 .header-title {
     color: #31BB9B;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 400;
     text-transform: uppercase;
-    font-family: "roboto-slab", sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0 1%;
 
 }
@@ -45,7 +45,7 @@
 
 
 .hero-title {
-    font-family: "roboto-slab", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 4vw;
     text-transform: uppercase;
     text-align: center;
@@ -57,7 +57,7 @@
 }
 
 .hero-slogan {
-    font-family: "cookie", sans-serif;
+    font-family: 'Cookie', sans-serif;
     font-size: 3.5vw;
     text-align: center;
     color: #ffffff;
@@ -74,7 +74,7 @@
     top: 58%;
     width: 30vw;
     height: 13vw;
-    border-radius: 1.5rem
+    border-radius: 1.5rem;
 }
 
 
@@ -107,7 +107,7 @@
 @media screen and (max-width: 800px) {
     .hero-title {
         font-size: 6vw;
-        padding-top: 5%
+        padding-top: 5%;
     }
 
     .hero-slogan {
@@ -159,7 +159,7 @@
 }
 
 .showbox-container h2 {
-    font-family: "roboto-slab", sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     text-align: center;
@@ -179,6 +179,8 @@
 .index-nav {
     text-decoration: none;
     color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .index-nav:hover {
@@ -254,8 +256,7 @@
     color: #000000;
     font-size: 200px;
     text-align: center;
-    font-family: "cookie",
-        sans-serif;
+    font-family: 'Cookie', sans-serif;
     padding: 2%;
     margin: 0 auto;
 }
@@ -287,8 +288,7 @@
 
         font-size: 100px;
         text-align: center;
-        font-family: "cookie",
-            sans-serif;
+        font-family: 'Cookie', sans-serif;
         padding: 2%;
         margin: 0 auto;
     }
@@ -331,7 +331,7 @@
     background-color: rgba(141, 35, 107, 0.5);
     margin: 2%;
     padding: 20px;
-    font-family: "roboto-slab", sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 1.5rem
 }
 
@@ -342,7 +342,7 @@
     position: relative;
     margin-left: 0;
     margin-top: 5%;
-    border-radius: 1.5rem
+    border-radius: 1.5rem;
 }
 
 
@@ -363,8 +363,7 @@
 }
 
 .open-p {
-    font-family: "roboto-slab",
-        sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 1%;
     font-weight: 400;
     font-size: 15px;
@@ -382,7 +381,7 @@
     position: relative;
     margin-left: 0;
     margin-top: 2vw;
-    border-radius: 1.5rem
+    border-radius: 1.5rem;
 }
 
 #visit-right {
@@ -392,7 +391,7 @@
     font-family: "roboto-slab",
         sans-serif;
     margin: 2% 2% 2% 64.5%;
-    border-radius: 1.5rem
+    border-radius: 1.5rem;
 }
 
 .facilities-list {
@@ -415,8 +414,7 @@
     padding: 20px;
     margin: 2% 3% 2% 1%;
     padding: 20px;
-    font-family: "roboto-slab",
-        sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 1.5rem;
 }
 
@@ -424,7 +422,7 @@
 .google-map {
     height: 100%;
     width: 100%;
-    border-radius: 1.5rem
+    border-radius: 1.5rem;
 }
 
 #map-background {
@@ -456,7 +454,7 @@
         background-color: rgba(141, 35, 107, 0.4);
         margin: 0 auto;
         padding: 20px;
-        font-family: "roboto-slab", sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 
     .visit-header4-open {
@@ -474,7 +472,7 @@
         position: relative;
         margin-left: 0;
         margin-top: 2%;
-        border-radius: 1.5rem
+        border-radius: 1.5rem;
     }
 
 }
@@ -482,7 +480,7 @@
 @media screen and (max-width: 760px) {
 
     #prices-background {
-        margin-top: 10%
+        margin-top: 10%;
     }
 
     .visit-header4-open {
@@ -518,8 +516,7 @@
     color: #000000;
     font-size: 150px;
     text-align: center;
-    font-family: "cookie",
-        sans-serif;
+    font-family: 'Cookie', sans-serif;
     padding: 2%;
     margin: 0 auto;
 }
@@ -554,7 +551,7 @@
 
 .contact-detail-h3 {
     color: #ffffff;
-    font-family: "cookie", sans-serif;
+    font-family: 'Cookie', sans-serif;
     font-weight: 500;
     font-size: 30px;
     margin-bottom: 3%;
@@ -572,8 +569,7 @@
 
 .contact-detail-p {
     color: #ffffff;
-    font-family: "roboto-slab",
-        sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 2%;
     font-weight: 300;
     font-size: 16px;
