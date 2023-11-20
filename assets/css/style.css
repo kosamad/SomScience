@@ -5,6 +5,9 @@
 
 /*------------------------------Header*/
 
+.nav-bg {
+    background-color: #ffffff;
+}
 
 .header-title {
     color: #31BB9B;
@@ -12,6 +15,7 @@
     font-weight: 500;
     text-transform: uppercase;
     font-family: "roboto-slab", sans-serif;
+    padding: 0 1%;
 
 }
 
@@ -20,6 +24,7 @@
     position: absolute;
     right: 0px;
     text-transform: uppercase;
+    padding: 0 1%;
 }
 
 .navbar-right a {
@@ -35,6 +40,7 @@
     background: url("../images/pexels-yan-krukau-8617817.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
+    margin-top: 100px;
 }
 
 
@@ -183,7 +189,8 @@
 .inside-h-bg {
     background-color: #c691b5;
     text-align: center;
-    padding: 2% 0;
+    padding: 8% 0 5% 0%;
+    margin-top: 60px;
 }
 
 .about-bg {
