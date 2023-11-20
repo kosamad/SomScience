@@ -63,7 +63,7 @@ Using UX design principles, I contemplated the key features a science museum cou
 
 ### Oppertunities Martix
 
-The fictional ideas were summarized in an opportunity matrix to identify the most important features of the website (phase 1 deployment) and identify what could be rolled out in the future (phase 2 deployment)
+The ideas summarising what the museum would contain were summarized in an opportunity matrix to identify the most important features of the website (phase 1 deployment) and identify what could be rolled out in the future (phase 2 deployment)
 
 |Opportunity                            |Importance|Viability|Score|
 |:-------------------------------------:|:--------:|:-------:|:---:|
@@ -92,3 +92,29 @@ Based on the score, the opportunities were sumarised into their roll out phase.
 | Membership options                    | 2                 |
 | Bookings page                         | 2                 |
 | The workshop                          | 2                 |
+
+---
+
+## STRUCTURE - phase 1 roll out
+
+The website will consist of an introductory page showcasing the main features of the museum with corresponding (linked pages) to different areas. A total of 4 pages. This will provide users with an overview of all the features of the museum, giving multiple opportunities to inspire a visit with visually captivating images.
+
+
+### Pages
+
+  1. Home (index) page
+     * Hero image to captivate the viewer. Title- SomScience, Somerset's Interactive Science Museum.
+     * Summary of what's inside the museum/leading info to get users to explore further. Linked pages.
+  2. Inside
+     * Sections that explain key features of the muesum with images
+  3. Visit
+     * Sections informing users about admission prices, other facilities and how to find us (map).
+     * Link to contact page.
+  4. Contact
+     * Form to input question
+     * Additional contact info (tel, email)
+  5. Every Page
+     * Sticky navigation bar that toggles on small screens inc logo which takes back to home screen
+     * Footer containing the museum's social media links (as this site is fictional, these will link to the home pages)
+
+## Skeleton
