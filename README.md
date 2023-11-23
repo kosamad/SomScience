@@ -230,3 +230,11 @@ This page aims to give an user the key information they would need to successful
  Together with the address, a map appears on the page to improve UX and prevent a user having to navigate away from the page to find out where the museum is located.
 
 ![visit map](documentation/screen_shots/visit_map.PNG).
+
+#### The Contact Page
+
+ ADD IN IMAGE OF HOME SCREEN ON MULTIPLE DEVICES!!!!!!!!!!!!!!
+
+The contact page gives the user the ability to submit a question to the museum. The form takes key details, first name, last name, email, with a subject box to direct the question to the right area of enquiry. 
+
+The image on this page links back the logo and represents the lightbulb "idea" and asking a question. 
