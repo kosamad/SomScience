@@ -197,6 +197,10 @@ Each of the website's pages will have a sticky, navigation tab that includes the
 
  ![navigation large example](documentation/screen_shots/navigation_pane_small.PNG)
 
+ At the foot of each page are links to the museum's social media platforms (as this is a ficitional site, these are set to the home page)
+
+  ![footer](documentation/screen_shots/footer.PNG)
+
 #### The Home Page
 
  The home page captivates the user with a hero image which has a container displaying the museum's name (SomScience) with it's key slogan, "curiosity at it's best". Below this there are three images which summarise three key messages of the museum: discover, experience, interact. Each of these words navigate to the relavent section on the "inside" page.
@@ -205,12 +209,24 @@ Each of the website's pages will have a sticky, navigation tab that includes the
 
 #### The Inside Page
 
+ The sections of the museum are: discover, lab experience, cafe & shop and quiet space, each defined using a muted version of the pages chosen colours and containg three images related to it's content. There is also a breif summary of what each area offers with key words highlighted in bold.
+
  Underneath the navigation pane will be an additional "navigation menu" which allows the user to move through the different areas of the page without scrolling all the way through.
 
-  ![inside subnav](documentation/screen_shots/inside-subnav.PNG)
+![inside subnav](documentation/screen_shots/inside-subnav.PNG)
 
  Additionally, there is a "back to the top" button at the end of each section.  
 
 ![back to top button](documentation/screen_shots/back-to-top-button.PNG).
 
-The sections are: discover, lab experience, cafe & shop and quiet space, each defined using a muted version of the pages chosen colours and containg three images related to it's content. There is also a breif summary of what each area offers with key words highlighted in bold.
+ ADD IN IMAGE OF HOME SCREEN ON MULTIPLE DEVICES!!!!!!!!!!!!!!
+
+#### The Visit Page
+
+This page aims to give an user the key information they would need to successfully visit: prices, openeing times, facility info and the addres with a link that takes them to the contact page, should they have any more questions.
+
+ ADD IN IMAGE OF HOME SCREEN ON MULTIPLE DEVICES!!!!!!!!!!!!!!
+
+ Together with the address, a map appears on the page to improve UX and prevent a user having to navigate away from the page to find out where the museum is located.
+
+![visit map](documentation/screen_shots/visit_map.PNG).
