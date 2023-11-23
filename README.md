@@ -253,7 +253,11 @@ In the future i'd like to:
 Whilst writting the code for this site i've ensured each page is accessible. I've therefore inluded the following features:
 
 * Hover features so a user knows when they are positioned over a link word/button.
-* A screen reader function that lets the user know which page they are on.
+* Aria labelling to identify differnt parts of the page, link images with corresponding text and describe where buttons/links navigate to.
+* A screen reader attribute that lets the user know which page they are on.
 * Semantic HTML
-* Alternative text that provides an decription of each image (Aria attribute). 
+* Contrasting colours to ensure content is readible (even over pictures)
 
+To further check the assesibiltiy of my website, I used the [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?pli=1) on google chorme to check if my content was still readible with red/green and yellow/blue colour blindness.
+
+![red/green colour blind check](documentation/screen_shots/colour-blindrg-example.PNG).
