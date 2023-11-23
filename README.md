@@ -137,7 +137,7 @@ Wireframes outline how the content will be veiwed on different devices. They wer
 ![visit page](documentation/wireframes/visit-wireframe.png)
 
 4. Contact page
-   
+
 ![contact page](documentation/wireframes/contact-wireframe.png)
 
 Each page will be responsive and the user will be able to navigate between pages in multiple ways. Clicking the:
@@ -189,14 +189,28 @@ Google fonts was used to import fonts for this site. I have used a combination o
 
 ### Features
 
-Each of the website's pages will have a navigation tab that includes the museum's logo. This acts as a link back to the home page. 
+Each of the website's pages will have a sticky, navigation tab that includes the museum's logo. This acts as a link back to the home page.
   
  ![navigation large example](documentation/screen_shots/navigation_pane_large.PNG)
 
  The navigation bar will toggle on smaller devices.
- 
+
  ![navigation large example](documentation/screen_shots/navigation_pane_small.PNG)
 
- #### The Home Page
+#### The Home Page
 
- 
+ The home page captivates the user with a hero image which has a container displaying the museum's name (SomScience) with it's key slogan, "curiosity at it's best". Below this there are three images which summarise three key messages of the museum: discover, experience, interact. Each of these words navigate to the relavent section on the "inside" page.
+
+ ADD IN IMAGE OF HOME SCREEN ON MULTIPLE DEVICES!!!!!!!!!!!!!!
+
+#### The Inside Page
+
+ Underneath the navigation pane will be an additional "navigation menu" which allows the user to move through the different areas of the page without scrolling all the way through.
+
+  ![inside subnav](documentation/screen_shots/inside-subnav.PNG)
+
+ Additionally, there is a "back to the top" button at the end of each section.  
+
+![back to top button](documentation/screen_shots/back-to-top-button.PNG).
+
+The sections are: discover, lab experience, cafe & shop and quiet space, each defined using a muted version of the pages chosen colours and containg three images related to it's content. There is also a breif summary of what each area offers with key words highlighted in bold.
