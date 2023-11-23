@@ -171,11 +171,11 @@ Each page will be responsive and the user will be able to navigate between pages
 
 Google fonts was used to import fonts for this site. I have used a combination of roboto and cookie to give a visual balance on the page and convey that this museum is factual but remains fun.
 
-* roboto is a clean, simple, educated font which stands out and is clearly readable even in smaller fonts.
+* Roboto is a clean, simple, educated font which stands out and is clearly readable even in smaller fonts.
   
   ![roboto font example](documentation/roboto_font.PNG)
 
-* cookie is a caligraphy style and gives the more creative, spoken, fun elements to the page.
+* Cookie is a caligraphy style and gives the more creative, spoken, fun elements to the page.
 
   ![cookie font example](documentation/cookie_font.PNG)
 
@@ -187,7 +187,16 @@ Google fonts was used to import fonts for this site. I have used a combination o
 
   Other images were chosen to ensure they potrayed a variety of colours, interests and ethnicities.
 
+### Features
 
+Each of the website's pages will have a navigation tab that includes the museum's logo. This acts as a link back to the home page. 
   
+ ![navigation large example](documentation/screen_shots/navigation_pane_large.PNG)
 
+ The navigation bar will toggle on smaller devices.
+ 
+ ![navigation large example](documentation/screen_shots/navigation_pane_small.PNG)
 
+ #### The Home Page
+
+ 
