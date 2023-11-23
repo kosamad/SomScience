@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="container-fluid" id="backtop">
-      <nav class="navbar navbar-expand-md fixed-top nav-bg ">
+      <nav class="navbar navbar-expand-md fixed-top nav-bg">
         <a class="navbar-brand header-title" href="index.html">
           <img
             src="assets/images/vecteezy_bulb-technology-modified.jpg"
@@ -29,6 +29,7 @@
             height="50"
             class="d-inline"
             alt="somscience logo"
+            aria-label="somscience logo (navigates to home screen)"
           />SomScience</a
         >
 
@@ -45,12 +46,30 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav navbar-right">
-            <a class="nav-item nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link active" href="inside.html"
+            <a
+              class="nav-item nav-link"
+              href="index.html"
+              aria-label="go to the home page"
+              >Home</a
+            >
+            <a
+              class="nav-item nav-link active"
+              href="inside.html"
+              aria-label="inside"
               >Inside <span class="sr-only">(current)</span></a
             >
-            <a class="nav-item nav-link" href="visit.html">Visit</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a
+              class="nav-item nav-link"
+              href="visit.html"
+              aria-label="go to the visit page"
+              >Visit</a
+            >
+            <a
+              class="nav-item nav-link"
+              href="contact.html"
+              aria-label="go to the contact page"
+              >Contact</a
+            >
           </div>
         </div>
       </nav>
@@ -59,21 +78,44 @@
     <section class="container-fluid">
       <div class="row inside-h-bg justify-content-center inside-header">
         <div class="col-md-3">
-          <a class="inside-nav" href="#inside-section">Discover</a>
+          <a
+            class="inside-nav"
+            href="#inside-section"
+            aria-label="go to the discover section"
+            >Discover</a
+          >
         </div>
         <div class="col-md-3">
-          <a class="inside-nav" href="#lab-section">Lab Experience</a>
+          <a
+            class="inside-nav"
+            href="#lab-section"
+            aria-label="go to the lab experience section"
+            >Lab Experience</a
+          >
         </div>
         <div class="col-md-3">
-          <a class="inside-nav" href="#cafe-section">Cafe & Shop</a>
+          <a
+            class="inside-nav"
+            href="#cafe-section"
+            aria-label="go to the cafe and shop section"
+            >Cafe & Shop</a
+          >
         </div>
         <div class="col-md-3">
-          <a class="inside-nav" href="#quiet-section">Quiet Space</a>
+          <a
+            class="inside-nav"
+            href="#quiet-section"
+            aria-label="go to the quiet space section"
+            >Quiet Space</a
+          >
         </div>
       </div>
     </section>
 
-    <div class="container-fluid discover-bg">
+    <div
+      class="container-fluid discover-bg"
+      aria-labelledby="discover-section interactive-girl children-seesaw rainbow-hand"
+    >
       <div class="row justify-content-center">
         <div class="col-md-8 inside-box-left">
           <div id="inside-section">
@@ -99,8 +141,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-jessica-lewis-10988021 (1).jpg"
-              alt="rainbow bubbles"
+              alt="interactive girl"
               class="img-fluid mx-auto rounded-edge"
+              id="interactive-girl"
             />
           </div>
         </div>
@@ -109,8 +152,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-yan-krukau-8429945.jpg"
-              alt="children in lab"
+              alt="children on seesaw"
               class="img-fluid mx-auto rounded-edge"
+              id="children-seesaw"
             />
           </div>
         </div>
@@ -119,8 +163,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-valeria-boltneva-87584 (1).jpg"
-              alt="exhibit interaction"
+              alt="rainbow on hand"
               class="img-fluid mx-auto rounded-edge"
+              id="rainbow-hand"
             />
           </div>
         </div>
@@ -130,13 +175,18 @@
             class="btn btn-inside"
             role="button"
             aria-pressed="true"
+            aria-label="back to the top of the page"
             >Back to the Top</a
           >
         </div>
       </div>
     </div>
 
-    <div class="container-fluid lab-bg">
+    id="smoking-tubes"
+    <div
+      class="container-fluid lab-bg"
+      aria-labelledby="labs-section microscope-child smoking-tubes cutting-paper"
+    >
       <div class="row justify-content-center">
         <div class="col-md-8 inside-box-left">
           <div id="lab-section">
@@ -159,8 +209,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-mart-production-8471895.jpg"
-              alt="children in lab"
+              alt="child using a microscope"
               class="img-fluid rounded-edge"
+              id="microscope-child"
             />
           </div>
         </div>
@@ -168,8 +219,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-kindel-media-8326467.jpg"
-              alt="rainbow bubbles"
+              alt="smoking test tubes"
               class="img-fluid rounded-edge"
+              id="smoking-tubes"
             />
           </div>
         </div>
@@ -178,8 +230,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-yan-krukau-8613060.jpg"
-              alt="exhibit interaction"
+              alt="cutting paper"
               class="img-fluid rounded-edge"
+              id="cutting-paper"
             />
           </div>
         </div>
@@ -189,13 +242,17 @@
             class="btn btn-inside"
             role="button"
             aria-pressed="true"
+            aria-label="back to the top of the page"
             >Back to the Top</a
           >
         </div>
       </div>
     </div>
 
-    <div class="container-fluid cafe-bg">
+    <div
+      class="container-fluid cafe-bg"
+      aria-labelledby="cafe-section tea shop cake"
+    >
       <div class="row justify-content-center">
         <div class="col-md-8 inside-box-left">
           <div id="cafe-section">
@@ -219,8 +276,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-charlotte-may-5947108.jpg"
-              alt="children in lab"
+              alt="cup of tea and pot"
               class="img-fluid rounded-edge"
+              id="tea"
             />
           </div>
         </div>
@@ -228,8 +286,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-billow-5338279.jpg"
-              alt="rainbow bubbles"
+              alt="women browsing shop"
               class="img-fluid rounded-edge"
+              id="shop"
             />
           </div>
         </div>
@@ -238,8 +297,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-lisa-fotios-907142 (1).jpg"
-              alt="exhibit interaction"
+              alt="coffee and a piece of cake"
               class="img-fluid rounded-edge"
+              id="cake"
             />
           </div>
         </div>
@@ -255,7 +315,10 @@
       </div>
     </div>
 
-    <div class="container-fluid quiet-bg">
+    <div
+      class="container-fluid quiet-bg"
+      aria-labelledby="quiet-section reading-corner headphones sofa-boy"
+    >
       <div class="row justify-content-center">
         <div class="col-md-8 inside-box-left">
           <div id="quiet-section">
@@ -276,8 +339,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-cottonbro-studio-6157226.jpg"
-              alt="children in lab"
+              alt="reading in a corner"
               class="img-fluid rounded-edge"
+              id="reading-corner"
             />
           </div>
         </div>
@@ -285,8 +349,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-andrea-piacquadio-3755622.jpg"
-              alt="rainbow bubbles"
+              alt="girl listening with headphones"
               class="img-fluid rounded-edge"
+              id="headphones"
             />
           </div>
         </div>
@@ -295,8 +360,9 @@
           <div class="inside-container">
             <img
               src="assets/images/inside-p/pexels-marta-wave-6437804.jpg"
-              alt="exhibit interaction"
+              alt="boy reading on sofa"
               class="img-fluid rounded-edge"
+              id="sofa-boy"
             />
           </div>
         </div>
@@ -307,6 +373,7 @@
           class="btn btn-inside"
           role="button"
           aria-pressed="true"
+          aria-label="back to the top of the page"
           >Back to the Top</a
         >
       </div>
@@ -317,13 +384,20 @@
         <div class="col-12">
           <ul class="text-center social-media-icon list-inline">
             <li class="list-inline-item">
-              <a class="" href="https://www.facebook.com" target="_blank"
+              <a
+                class=""
+                href="https://www.facebook.com"
+                target="_blank"
+                aria-label="Find us on Facebook (link opens in a new tab)"
                 ><i class="fab fa-facebook-square" aria-hidden="true"></i>
                 <span class="sr-only">facebook</span></a
               >
             </li>
             <li class="list-inline-item">
-              <a href="https://www.twitter.com" target="_blank"
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                aria-label="Find us on Twitter (link opens in a new tab)"
                 ><i
                   class="fa-brands fa-square-x-twitter"
                   aria-hidden="true"
@@ -332,7 +406,10 @@
               >
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com" target="_blank"
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                aria-label="Find us on Twitter (link opens in a new tab)"
                 ><i class="fab fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">instagram</span></a
               >

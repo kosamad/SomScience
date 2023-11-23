@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="container-fluid">
-        <nav class="navbar navbar-expand-md fixed-top nav-bg">
+      <nav class="navbar navbar-expand-md fixed-top nav-bg">
         <a class="navbar-brand header-title" href="index.html">
           <img
             src="assets/images/vecteezy_bulb-technology-modified.jpg"
@@ -29,6 +29,7 @@
             height="50"
             class="d-inline"
             alt="somscience logo"
+            aria-label="somscience logo (navigates to home screen)"
           />SomScience</a
         >
 
@@ -45,10 +46,28 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav navbar-right">
-            <a class="nav-item nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link" href="#">Inside</a>
-            <a class="nav-item nav-link" href="visit.html">Visit</a>
-            <a class="nav-item nav-link active" href="contact.html"
+            <a
+              class="nav-item nav-link"
+              href="index.html"
+              aria-label="go to the home page"
+              >Home</a
+            >
+            <a
+              class="nav-item nav-link"
+              href="inside.html"
+              aria-label="go to the inside page"
+              >Inside</a
+            >
+            <a
+              class="nav-item nav-link"
+              href="visit.html"
+              aria-label="go to the visit page"
+              >Visit</a
+            >
+            <a
+              class="nav-item nav-link active"
+              href="contact.html"
+              aria-label="contact"
               >Contact <span class="sr-only">(current)</span></a
             >
           </div>
@@ -57,13 +76,12 @@
     </header>
 
     <section class="contact-bg container-fluid">
-
-        <div class="row justify-content-center">
+      <div class="row justify-content-center">
         <div class="col">
-            <h1 class= "question-header">Got A Question?</h1>
+          <h1 class="question-header">Got A Question?</h1>
         </div>
-        </div>
-        
+      </div>
+
       <div class="row">
         <div class="col-md-4 picture-contact">
           <img
@@ -73,7 +91,7 @@
           />
         </div>
 
-        <div class="col-md-8 center-form">                                      
+        <div class="col-md-8 center-form" aria-label="contact us form">
           <form>
             <div class="row">
               <div class="col-lg-6 col-md-12 content-margin">
@@ -134,41 +152,60 @@
                   id="question"
                   class="form-control row-number"
                   placeholder="Type Your Question Here"
+                  aria-label="type your question here"
                   required
                 ></textarea>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              aria-label="submit button"
+            >
+              Submit
+            </button>
           </form>
 
-        <div class="col">
-            <h3 class="contact-detail-h3"> Alternativly you can catch us on: </h3>
-            <h4 class="contact-detail-h4"><i class="fa-solid fa-phone visit-icon-gap"></i>Tel:<span class="contact-detail-p contact-margin">01530 215 630 </span></h4>
-            <h4 class="contact-detail-h4"><i class="fa-solid fa-envelope visit-icon-gap"></i>Email:<span
-                    class="contact-detail-p contact-margin">somscience@gmail.com</span></h4>
-            </div>
-       
-</div>
-        
+          <div class="col" aria-label="alternative contact details">
+            <h3 class="contact-detail-h3">Alternativly you can catch us on:</h3>
+            <h4 class="contact-detail-h4" aria-label="phone number">
+              <i class="fa-solid fa-phone visit-icon-gap"></i>Tel:<span
+                class="contact-detail-p contact-margin"
+                >01530 215 630
+              </span>
+            </h4>
+            <h4 class="contact-detail-h4" aria-label="email address">
+              <i class="fa-solid fa-envelope visit-icon-gap"></i>Email:<span
+                class="contact-detail-p contact-margin"
+                >somscience@gmail.com</span
+              >
+            </h4>
+          </div>
         </div>
       </div>
+
       <section class="page-space"></section>
     </section>
-   
-        </section>
 
     <footer class="container-fluid">
       <div class="row">
         <div class="col-12">
           <ul class="text-center social-media-icon list-inline">
             <li class="list-inline-item">
-              <a class="" href="https://www.facebook.com" target="_blank"
+              <a
+                class=""
+                href="https://www.facebook.com"
+                target="_blank"
+                aria-label="Find us on Facebook (link opens in a new tab)"
                 ><i class="fab fa-facebook-square" aria-hidden="true"></i>
                 <span class="sr-only">facebook</span></a
               >
             </li>
             <li class="list-inline-item">
-              <a href="https://www.twitter.com" target="_blank"
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                aria-label="Find us on Twitter (link opens in a new tab)"
                 ><i
                   class="fa-brands fa-square-x-twitter"
                   aria-hidden="true"
@@ -177,7 +214,10 @@
               >
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com" target="_blank"
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                aria-label="Find us on Twitter (link opens in a new tab)"
                 ><i class="fab fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">instagram</span></a
               >

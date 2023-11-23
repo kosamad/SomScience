@@ -22,7 +22,7 @@
 
   <body>
     <header class="container-fluid">
-        <nav class="navbar navbar-expand-md fixed-top nav-bg">
+      <nav class="navbar navbar-expand-md fixed-top nav-bg">
         <a class="navbar-brand header-title" href="index.html">
           <img
             src="assets/images/vecteezy_bulb-technology-modified.jpg"
@@ -30,6 +30,7 @@
             height="50"
             class="d-inline"
             alt="somscience logo"
+            aria-label="somscience logo (navigates to home screen)"
           />SomScience</a
         >
 
@@ -46,19 +47,41 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav navbar-right">
-            <a class="nav-item nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link" href="inside.html">Inside</a>
-            <a class="nav-item nav-link active" href="visit.html"
+            <a
+              class="nav-item nav-link"
+              href="index.html"
+              aria-label="go to the home page"
+              >Home</a
+            >
+            <a
+              class="nav-item nav-link"
+              href="inside.html"
+              aria-label="go to the inside page"
+              >Inside</a
+            >
+            <a
+              class="nav-item nav-link active"
+              href="visit.html"
+              aria-label="visit"
               >Visit <span class="sr-only">(current)</span></a
             >
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a
+              class="nav-item nav-link"
+              href="contact.html"
+              aria-label="go to the contact page"
+              >Contact</a
+            >
           </div>
         </div>
       </nav>
     </header>
 
     <section class="container-fluid">
-      <div class="row" id="prices-background">
+      <div
+        class="row"
+        id="prices-background"
+        aria-label="admission prices and opening times"
+      >
         <div class="col-lg-4" id="visit-left">
           <h4 class="visit-header4">
             <i class="fa-solid fa-ticket visit-icon-gap"></i>Admission Prices
@@ -112,7 +135,11 @@
     </section>
 
     <section class="container-fluid">
-      <div class="row" id="other-fac-background">
+      <div
+        class="row"
+        id="other-fac-background"
+        aria-label="other facilities in the museum"
+      >
         <div class="col-lg-4" id="visit-right">
           <h4 class="visit-header4">
             <i class="fa-solid fa-headphones visit-icon-gap"></i>Other
@@ -148,11 +175,15 @@
 
     <section class="container-fluid">
       <div class="row">
-        <div class="col-md-3" id="visit-map">
+        <div
+          class="col-md-3"
+          id="visit-map"
+          aria-label="how to find and contact us"
+        >
           <h4 class="visit-header4">
             <i class="fa-solid fa-map visit-icon-gap"></i>Find Us!
           </h4>
-          <p class="open-p">
+          <p class="open-p" id="somscience-address">
             We are located in the heart of Somerset's bustling town, Taunton!
             Right next to Vivary Park.
           </p>
@@ -175,6 +206,7 @@
                 data-toggle="button"
                 aria-pressed="false"
                 autocomplete="off"
+                aria-label="navigate to the contact page (opens on a new page)"
               >
                 Contact Us
               </button>
@@ -186,55 +218,30 @@
           <iframe
             src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=Vivary%20Park+(SomScience)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             class="google-map"
+            aria-labelledby="somscience-address"
           ></iframe>
         </div>
       </div>
     </section>
-
-    <!--
-            <section class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4">CONTENT
-
-                    </div>
-                </div> 
-            </section>
-         
-
-
-            <section class="container-fluid">
-                <div class="row" id="find-background">
-                    <div class="col-lg-4">
-            
-                        <h4 class="visit-header4"><i class="fa-solid fa-ticket visit-icon-gap"></i>Admission Prices</h4>
-                   
-                        <p class="donation-info"><span class="astrix">*</span> Donations allow us to claim Gift Aid on 100% of the
-                            admission ticket. All money helps our SomScience charity create exciting exhibits for all to enjoy </p>
-            
-            
-                        <h4 class="visit-header4-open"><i class="fa-solid fa-clock visit-icon-gap"></i>Opening Times</h4>
-                        <p class="open-p">Monday: Closed</p>
-                        <p class="open-p">Tuesday-Friday: 9:30-6:00</p>
-                        <p class="open-p">Saturday-Sunday: 8:30-6:00</p>
-            
-                    </div>
-                </div>             
-            </section>
-
--->
 
     <footer class="container-fluid">
       <div class="row">
         <div class="col-12">
           <ul class="text-center social-media-icon list-inline">
             <li class="list-inline-item">
-              <a class="" href="https://www.facebook.com" target="_blank"
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                aria-label="Find us on Facebook (link opens in a new tab)"
                 ><i class="fab fa-facebook-square" aria-hidden="true"></i>
                 <span class="sr-only">facebook</span></a
               >
             </li>
             <li class="list-inline-item">
-              <a href="https://www.twitter.com" target="_blank"
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                aria-label="Find us on Twitter (link opens in a new tab)"
                 ><i
                   class="fa-brands fa-square-x-twitter"
                   aria-hidden="true"
@@ -243,7 +250,10 @@
               >
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com" target="_blank"
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                aria-label="Find us on Twitter (link opens in a new tab)"
                 ><i class="fab fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">instagram</span></a
               >

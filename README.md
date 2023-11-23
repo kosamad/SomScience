@@ -249,3 +249,11 @@ In the future i'd like to:
 4. Add a virtual tour of the museum's main exhibtion space on the "inside page"
 
 ### Accessibility
+
+Whilst writting the code for this site i've ensured each page is accessible. I've therefore inluded the following features:
+
+* Hover features so a user knows when they are positioned over a link word/button.
+* A screen reader function that lets the user know which page they are on.
+* Semantic HTML
+* Alternative text that provides an decription of each image (Aria attribute). 
+
