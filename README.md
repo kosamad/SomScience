@@ -10,7 +10,8 @@ ADD INFO RE LAST COMMIT, CONTRIBUTORS, LANGUAGE, TOP LANGUAGE AND VALIDATION?
 
 ## Contents
 
-* [User Experience]
+* [User Experience](user-experience-(ux))
+* [The Museum's Features](the-museum's-features)
 * etc, update at end once have different sections.
 
 ---
@@ -61,9 +62,11 @@ Using UX design principles, I contemplated the key features a science museum cou
 
 ## SCOPE
 
-### Oppertunities Martix
+### Opportunities Martix
 
 The ideas summarising what the museum would contain were summarized in an opportunity matrix to identify the most important features of the website (phase 1 deployment) and identify what could be rolled out in the future (phase 2 deployment)
+
+#### Table 1 Opportunity summary
 
 |Opportunity                            |Importance|Viability|Score|
 |:-------------------------------------:|:--------:|:-------:|:---:|
@@ -79,6 +82,8 @@ The ideas summarising what the museum would contain were summarized in an opport
 | The workshop                          | 3        | 3       | 6   |
 
 Based on the score, the opportunities were sumarised into their roll out phase.
+
+#### Table 2 Roll out
 
 |Opportunity                             | Phase for Roll Out|
 |:-------------------------------------:|:-----------------:|
@@ -117,6 +122,8 @@ The website will consist of an introductory page showcasing the main features of
   5. Every Page
      * Sticky navigation bar that toggles on small screens inc logo which takes back to home screen
      * Footer containing the museum's social media links (as this site is fictional, these will link to the home pages)
+  
+  ---
 
 ## SKELETON
 
@@ -147,7 +154,9 @@ Each page will be responsive and the user will be able to navigate between pages
 * The inside page will have navigation to each inside section + a "back to top"
 * The visit page will have a "want to speak to us" question with a button that links to the contact page.
 
-## SURFACE
+---
+
+## SURFACE DESIGN
 
 ### Logo
 
@@ -241,9 +250,9 @@ The image on this page links back the logo and represents the lightbulb "idea" a
 
 ### Future roll outs
 
-In the future i'd like to:
+In the future i'd like to address features that correspond to [phase 2](#table-2-roll-out) of my roll out
 
-1. Add separate pages for the cafe and shop which give more details for these areas.
+1. Add separate pages for the cafe, shop and workshop which give more details for these areas.
 2. Give users the oppertunity to book tickets and the lab experience online before visiting.
 3. Give users the option to become members online.
 4. Add a virtual tour of the museum's main exhibtion space on the "inside page"
@@ -261,3 +270,37 @@ Whilst writting the code for this site i've ensured each page is accessible. I'v
 To further check the assesibiltiy of my website, I used the [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?pli=1) on google chorme to check if my content was still readible with red/green and yellow/blue colour blindness.
 
 ![red/green colour blind check](documentation/screen_shots/colour-blindrg-example.PNG).
+
+---
+
+## Technologies Used
+
+### Languages
+
+HTML, CSS and Javascript (Bootsrap)
+
+### Frameworks, Libraries and Programmes
+
+* [Codeanywhere](https://app.codeanywhere.com/) - to create the site (IDE).
+  
+* [Balsamiq](https://balsamiq.com/) - to create wireframes.
+  
+* [Github](https://github.com/) - to save and store the files for the website.
+
+* [Google Fonts](https://fonts.google.com/) - to browse and import the fonts used on the website.
+
+* [ColorZilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp) - to pick colours from images and get colour codes.
+  
+* [Google Developer Tools](https://developer.chrome.com/docs/devtools/) - to veiw responsive styling and troubleshoot/solve issues.
+
+* [Favicon.io](https://favicon.io/) - to create the SomScience favicon.
+
+* [Birme](https://www.birme.net/) - to resize images and compress images.
+
+* [TinyPNG](https://tinypng.com/) - to compress larger images.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) - to show what the website looks like on different devices.
+
+* [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - to view the website under different accesibiity filters.
+
+* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - to spell check the webpage and readme file.
