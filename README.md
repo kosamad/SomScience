@@ -235,6 +235,17 @@ This page aims to give an user the key information they would need to successful
 
  ADD IN IMAGE OF HOME SCREEN ON MULTIPLE DEVICES!!!!!!!!!!!!!!
 
-The contact page gives the user the ability to submit a question to the museum. The form takes key details, first name, last name, email, with a subject box to direct the question to the right area of enquiry. 
+The contact page gives the user the ability to submit a question to the museum. The form takes key details, first name, last name, email, with a subject box to direct the question to the right area of enquiry.
 
-The image on this page links back the logo and represents the lightbulb "idea" and asking a question. 
+The image on this page links back the logo and represents the lightbulb "idea" and asking a question.
+
+### Future roll outs
+
+In the future i'd like to:
+
+1. Add separate pages for the cafe and shop which give more details for these areas.
+2. Give users the oppertunity to book tickets and the lab experience online before visiting.
+3. Give users the option to become members online.
+4. Add a virtual tour of the museum's main exhibtion space on the "inside page"
+
+### Accessibility
