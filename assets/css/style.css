@@ -443,6 +443,11 @@
 }
 
 /*------------------------------visit page media query*/
+@media screen and (max-width: 1282px) {
+    #prices-background {
+        margin-top: 6.5vw;
+    }
+}
 
 @media screen and (max-width: 990px) {
 
