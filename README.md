@@ -277,15 +277,21 @@ To further check the assesibiltiy of my website, I used the [Web Disability Simu
 
 ### Languages
 
-HTML, CSS and Javascript (Bootsrap)
+HTML, CSS and Javascript (via Bootsrap)
 
-### Frameworks, Libraries and Programmes
+### Frameworks, Libraries and Programmes Used
 
 * [Codeanywhere](https://app.codeanywhere.com/) - to create the site (IDE).
   
 * [Balsamiq](https://balsamiq.com/) - to create wireframes.
   
 * [Github](https://github.com/) - to save and store the files for the website.
+
+* [Git](https://git-scm.com/) - for version control, using the Gittpod terminal to commit to Git and Push to GitHub.
+
+* [Bootstrap version 5.3](https://getbootstrap.com/) - to onput different features of the website and assist responsive styling.
+
+* [Font Awesome:](https://fontawesome.com/) - to add familiure icons and improve the UX.
 
 * [Google Fonts](https://fonts.google.com/) - to browse and import the fonts used on the website.
 
@@ -304,3 +310,27 @@ HTML, CSS and Javascript (Bootsrap)
 * [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - to view the website under different accesibiity filters.
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - to spell check the webpage and readme file.
+
+---
+
+## Testing
+
+FINISH THIS SECTION
+
+---
+
+## Deployment & Local Development
+
+### Deployment
+
+The SomScience website is deployed using GitHub pages - (DEPLOYED SITE LINK)
+
+1. Login (or signup) to Github.
+2. Navigate to the project repository,[]().
+3. WRITE FOLLOWING INSTRUCTIONS IN OWN HAND
+4. Click the settings button.
+5. Select pages in the left hand navigation menu.
+6. From the source dropdown select main branch and press save.
+7. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
