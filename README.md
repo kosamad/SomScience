@@ -124,27 +124,28 @@ The website will consist of an introductory page showcasing the main features of
 
 Wireframes outline how the content will be veiwed on different devices. They were created using balsamic.
 
-1. home page
+1. Home page
 
 ![homepage(index)](documentation/wireframes/home-wireframe.png)
 
-2. inside page
+2. Inside page
 
-![inside page(index)](documentation/wireframes/inside_wireframe.png)
+![inside page](documentation/wireframes/inside_wireframe.png)
 
-3. visit page
+3. Visit page
 
+![visit page](documentation/wireframes/visit-wireframe.png)
 
-[home page desktop]
-[home page mobile]
-[contact page desktop]
-[inside page mobile]
+4. Contact page
+   
+![contact page](documentation/wireframes/contact-wireframe.png)
 
 Each page will be responsive and the user will be able to navigate between pages in multiple ways. Clicking the:
 
 * Logo and home nav bar naviagtes to home page (index)
-* Key work titles on home page will navigate to inside page, relavent section
+* Key word titles on home page will navigate to the relavent section on the "inside" page,
 * The inside page will have navigation to each inside section + a "back to top"
+* The visit page will have a "want to speak to us" question with a button that links to the contact page.
 
 ## SURFACE
 
