@@ -40,7 +40,7 @@
 #hero-image {
     height: 85vh;
     width: 100%;
-    background: url("../images/pexels-yan-krukau-8617817.jpg") no-repeat center center;
+    background: url("../images/pexels-yan-krukau-8617817.webp") no-repeat center center;
     background-size: cover;
     position: relative;
     margin-top: 50px;
@@ -593,7 +593,6 @@
 
 .contact-bg {
     background-color: #c691b5;
-    margin-top: 5vw;
     padding-top: 15vw;
 }
 
