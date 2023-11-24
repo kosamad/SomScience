@@ -256,6 +256,7 @@ In the future i'd like to address features that correspond to [phase 2](#table-2
 2. Give users the oppertunity to book tickets and the lab experience online before visiting.
 3. Give users the option to become members online.
 4. Add a virtual tour of the museum's main exhibtion space on the "inside page"
+5. Improve the performance of the page (see [Testing](#testing) section below)
 
 ### Accessibility
 
@@ -327,16 +328,22 @@ I also used the layout part of Chrome developer to assist with the positioning o
 
 Please note that the error messages which relate to a "Trailing slash on void elements" have been filtered as they are automatically added by the browser and are not a true error. 
 
-* [index.html](documentation/screen_shots/validation/index.html-W3C.PNG)
-* [inside.html](documentation/screen_shots/validation/inside.html-W3C.PNG)
-* [visit.html](documentation/screen_shots/validation/visit.html-W3C.PNG)
-* [contact.html](documentation/screen_shots/validation/contact.html-W3C.PNG)
-* [css](documentation/screen_shots/validation/css-W3C.PNG)
+* [index.html](documentation/screen_shots/validation/index.html-W3C.PNG) - passed
+* [inside.html](documentation/screen_shots/validation/inside.html-W3C.PNG) - passed
+* [visit.html](documentation/screen_shots/validation/visit.html-W3C.PNG) - passed
+* [contact.html](documentation/screen_shots/validation/contact.html-W3C.PNG) - passed
+* [css](documentation/screen_shots/validation/css-W3C.PNG) - passed
 
 
 #### Lighthouse
 
 I used Lighthouse (a Crome developer too) to test the performance, quality and correctness of the SomScience site.
+The site performs well across all areas apart from performance. A number of elements could be addressed in a future roll out to improve the load speed of the page. This includes eliminating blocking elements caused from external styling and image adjustments. 
+
+* [index.html](documentation/screen_shots/validation/index.html-W3C.PNG)
+* ![inside.html](documentation/screen_shots/validation/inside_lighthouse_report.PNG)
+* * [index.html](documentation/screen_shots/validation/index.html-W3C.PNG)
+* [contact.html](documentation/screen_shots/validation/contact_lighthouse_report.PNG)
 
 
 ---
