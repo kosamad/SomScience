@@ -315,7 +315,15 @@ HTML, CSS and Javascript (via Bootsrap)
 
 ## Testing
 
-FINISH THIS SECTION
+Whilst buiding the site, I used Chrome developer tools to continuously test my page for responsiveness to diffrent screen sizes and to troubleshoot any problems as they arose, using a step by step approach to find and fix issues.
+
+I also used the layout part of Chrome developer to assist with the positioning of different elements on the page by experimenting with differernt margins and padding options.
+
+### Automated Testing
+
+#### W3C Validator
+
+[W3C](https://validator.w3.org/) was used to test the HTML on the website and validate the CSS. 
 
 ---
 
