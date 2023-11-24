@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@300;400;500&display=swap');
 
+.hover-pointer {
+    cursor: pointer !important;
+}
 
 /*------------------------------Header*/
 
@@ -182,10 +185,13 @@
     color: #000000;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    cursor: pointer;
+
 }
 
 .index-nav:hover {
     color: #31BB9B;
+    cursor: pointer;
 }
 
 
@@ -215,6 +221,7 @@
 
 .inside-nav:hover {
     color: #000000;
+    cursor: pointer;
 }
 
 /*------------------------------Backgrounds */
@@ -727,4 +734,6 @@ footer {
 
 .social-media-icon i:hover {
     color: #ffcc33;
+    cursor: pointer;
 }
+
