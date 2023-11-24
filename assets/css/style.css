@@ -323,189 +323,93 @@
     }
 }
 
+/* If the screen size is 200px wide or less  */
 
+@media screen and (max-width: 200px) {
+    .inside-sub-header {
 
-/*------------------------------visit page*/
+        font-size: 30px;
 
-/*------------------------------Price and Opening times/
+    }
+
+    /*------------------------------visit page*/
+
+    /*------------------------------Price and Opening times/
 
 /*------------------------------Backgrounds*/
-
-#visit-left {
-    background-color: rgba(141, 35, 107, 0.5);
-    margin: 2%;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 1.5rem
-}
-
-#prices-background {
-    width: 100%;
-    background: url("../images/pexels-cottonbro-studio-8142680.jpg") no-repeat center center;
-    background-size: cover;
-    position: relative;
-    margin-left: 0;
-    margin-top: 5%;
-    border-radius: 1.5rem;
-}
-
-/*-----------------------------Content*/
-
-.visit-header4 {
-    color: #000000;
-    font-size: 20px;
-    font-weight: 400;
-    padding: 5% 0 5%;
-}
-
-.visit-header4-open {
-    color: #000000;
-    font-size: 20px;
-    font-weight: 400;
-    padding: 4vw 0 2vw;
-}
-
-.visit-icon-gap {
-    padding-right: 10px;
-}
-
-
-.open-p {
-    font-family: 'Roboto', sans-serif;
-    margin-left: 1%;
-    font-weight: 400;
-    font-size: 15px;
-    margin-bottom: 0.5%;
-    color: #ffffff;
-}
-
-/*-----------------------------Table*/
-
-
-.astrix {
-    color: #adebdc;
-}
-
-.donation-info {
-    font-size: 14px;
-    font-weight: 400;
-    color: #ffffff;
-}
-
-.table-feat {
-    font-weight: 600;
-    margin-top: 3%;
-    color: #ffffff;
-}
-
-
-
-/*------------------------------other facilities*/
-
-/*------------------------------Backgrounds*/
-
-#other-fac-background {
-    width: 100%;
-    background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
-    background-size: cover;
-    position: relative;
-    margin-left: 0;
-    margin-top: 2vw;
-    border-radius: 1.5rem;
-}
-
-#visit-right {
-    background-color: rgba(64, 117, 161, 0.5);
-    margin: 2%;
-    padding: 20px;
-    font-family: "roboto-slab",
-        sans-serif;
-    margin: 2% 2% 2% 64.5%;
-    border-radius: 1.5rem;
-}
-
-/*------------------------------Content*/
-
-.facilities-list {
-    margin-left: 1%;
-    font-weight: 400;
-    font-size: 15px;
-    margin-bottom: 0.5%;
-    color: #ffffff;
-}
-
-.facilities-title {
-    font-weight: 600;
-    font-size: 16px;
-}
-
-/*------------------------------Facilities address and map*/
-
-#visit-map {
-    background-color: rgba(49, 187, 155, 0.9);
-    padding: 20px;
-    margin: 2% 3% 2% 1%;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 1.5rem;
-}
-
-
-.google-map {
-    height: 100%;
-    width: 100%;
-    border-radius: 1.5rem;
-}
-
-#map-background {
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.address-space {
-    padding-top: 7%;
-}
-
-
-.contact-button {
-    padding-top: 2%;
-    margin: 7% 0;
-    font-weight: 600;
-    background-color: #ffffff;
-}
-
-/*------------------------------visit page media query*/
-
-/* If the screen size is 1282px wide or less  */
-
-@media screen and (max-width: 1282px) {
-    #prices-background {
-        margin-top: 6.5vw;
-    }
-}
-
-/* If the screen size is 990px wide or less  */
-
-@media screen and (max-width: 990px) {
-
-    #prices-background {
-        margin-top: 8vw;
-    }
 
     #visit-left {
-        background-color: rgba(141, 35, 107, 0.4);
-        margin: 0 auto;
+        background-color: rgba(141, 35, 107, 0.5);
+        margin: 2%;
         padding: 20px;
         font-family: 'Roboto', sans-serif;
+        border-radius: 1.5rem
+    }
+
+    #prices-background {
+        width: 100%;
+        background: url("../images/pexels-cottonbro-studio-8142680.jpg") no-repeat center center;
+        background-size: cover;
+        position: relative;
+        margin-left: 0;
+        margin-top: 5%;
+        border-radius: 1.5rem;
+    }
+
+    /*-----------------------------Content*/
+
+    .visit-header4 {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 5% 0 5%;
     }
 
     .visit-header4-open {
-        padding: 6% 0 5%;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 4vw 0 2vw;
     }
 
-    #visit-right {
-        margin: 0 auto;
+    .visit-icon-gap {
+        padding-right: 10px;
     }
+
+
+    .open-p {
+        font-family: 'Roboto', sans-serif;
+        margin-left: 1%;
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 0.5%;
+        color: #ffffff;
+    }
+
+    /*-----------------------------Table*/
+
+
+    .astrix {
+        color: #adebdc;
+    }
+
+    .donation-info {
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    .table-feat {
+        font-weight: 600;
+        margin-top: 3%;
+        color: #ffffff;
+    }
+
+
+
+    /*------------------------------other facilities*/
+
+    /*------------------------------Backgrounds*/
 
     #other-fac-background {
         width: 100%;
@@ -513,227 +417,329 @@
         background-size: cover;
         position: relative;
         margin-left: 0;
-        margin-top: 2%;
+        margin-top: 2vw;
         border-radius: 1.5rem;
     }
 
-}
-
-/* If the screen size is 760px wide or less  */
-
-@media screen and (max-width: 760px) {
-
-    #prices-background {
-        margin-top: 12%;
-        margin-right: 2%;
+    #visit-right {
+        background-color: rgba(64, 117, 161, 0.5);
+        margin: 2%;
+        padding: 20px;
+        font-family: "roboto-slab",
+            sans-serif;
+        margin: 2% 2% 2% 64.5%;
+        border-radius: 1.5rem;
     }
 
-    .visit-header4-open {
-        padding: 10% 0 5%;
+    /*------------------------------Content*/
+
+    .facilities-list {
+        margin-left: 1%;
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 0.5%;
+        color: #ffffff;
     }
+
+    .facilities-title {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    /*------------------------------Facilities address and map*/
 
     #visit-map {
-        width: 96%;
-        margin-left: 2vw;
+        background-color: rgba(49, 187, 155, 0.9);
+        padding: 20px;
+        margin: 2% 3% 2% 1%;
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 1.5rem;
     }
 
 
-}
-
-/* If the screen size is 440px wide or less  */
-
-@media screen and (max-width: 440px) {
-    .visit-header4-open {
-        padding: 20% 0 5%;
+    .google-map {
+        height: 100%;
+        width: 100%;
+        border-radius: 1.5rem;
     }
 
     #map-background {
-        height: 40vh;
         margin-top: 2%;
         margin-bottom: 2%;
-
     }
 
-    #prices-background {
-        width: 98%;
-        margin-top: 18%;
-
-    }
-
-    #other-fac-background {
-        width: 98%;
-    }
-}
-
-
-
-/*------------------------------Contact Page*/
-
-.question-header {
-    color: #000000;
-    font-size: 150px;
-    text-align: center;
-    font-family: 'Cookie', sans-serif;
-    padding: 2%;
-    margin: 0 auto;
-}
-
-.picture-contact {
-    padding: 5%;
-}
-
-.contact-bg {
-    background-color: #c691b5;
-    margin-top: 5vw;
-    padding-top: 15vw;
-}
-
-/*------------------------------Form*/
-
-.center-form {
-    text-align: center;
-    padding-top: 7%;
-    max-width: 62.5%;
-}
-
-.content-margin {
-    padding: 1%;
-}
-
-.subject-box {
-    color: rgb(64 117 161);
-}
-
-.form-control::placeholder {
-    color: rgb(64 117 161);
-}
-
-button[type="submit"] {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    color: #ffffff;
-    background-color: rgb(64 117 161);
-}
-
-/*------------------------------Other details*/
-
-.contact-detail-h3 {
-    color: #ffffff;
-    font-family: 'Cookie', sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    margin-bottom: 3%;
-}
-
-.contact-detail-h4 {
-    color: rgb(64 117 161);
-    font-family: "roboto-slab",
-        sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 16px;
-    margin-bottom: 3%;
-}
-
-.contact-detail-p {
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 2%;
-    font-weight: 300;
-    font-size: 16px;
-    text-transform: none;
-
-}
-
-.page-space {
-    padding: 10%;
-    background-color: #c691b5;
-}
-
-/*------------------------------Contact form media queries*/
-
-/* If the screen size is 1024px wide or less  */
-
-
-@media screen and (max-width: 1024px) {
-    .center-form {
-        padding-top: 5%;
+    .address-space {
+        padding-top: 7%;
     }
 
 
-    button[type="submit"] {
-        margin-bottom: 5%;
+    .contact-button {
+        padding-top: 2%;
+        margin: 7% 0;
+        font-weight: 600;
+        background-color: #ffffff;
     }
-}
 
-@media screen and (max-width: 980px) {
+    /*------------------------------visit page media query*/
+
+    /* If the screen size is 1282px wide or less  */
+
+    @media screen and (max-width: 1282px) {
+        #prices-background {
+            margin-top: 6.5vw;
+        }
+    }
+
+    /* If the screen size is 990px wide or less  */
+
+    @media screen and (max-width: 990px) {
+
+        #prices-background {
+            margin-top: 8vw;
+        }
+
+        #visit-left {
+            background-color: rgba(141, 35, 107, 0.4);
+            margin: 0 auto;
+            padding: 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .visit-header4-open {
+            padding: 6% 0 5%;
+        }
+
+        #visit-right {
+            margin: 0 auto;
+        }
+
+        #other-fac-background {
+            width: 100%;
+            background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
+            background-size: cover;
+            position: relative;
+            margin-left: 0;
+            margin-top: 2%;
+            border-radius: 1.5rem;
+        }
+
+    }
+
+    /* If the screen size is 760px wide or less  */
+
+    @media screen and (max-width: 760px) {
+
+        #prices-background {
+            margin-top: 12%;
+            margin-right: 2%;
+        }
+
+        .visit-header4-open {
+            padding: 10% 0 5%;
+        }
+
+        #visit-map {
+            width: 96%;
+            margin-left: 2vw;
+        }
+
+
+    }
+
+    /* If the screen size is 440px wide or less  */
+
+    @media screen and (max-width: 440px) {
+        .visit-header4-open {
+            padding: 20% 0 5%;
+        }
+
+        #map-background {
+            height: 40vh;
+            margin-top: 2%;
+            margin-bottom: 2%;
+
+        }
+
+        #prices-background {
+            width: 98%;
+            margin-top: 18%;
+
+        }
+
+        #other-fac-background {
+            width: 98%;
+        }
+    }
+
+
+
+    /*------------------------------Contact Page*/
 
     .question-header {
-        font-size: 100px;
+        color: #000000;
+        font-size: 150px;
+        text-align: center;
+        font-family: 'Cookie', sans-serif;
+        padding: 2%;
+        margin: 0 auto;
     }
+
+    .picture-contact {
+        padding: 5%;
+    }
+
+    .contact-bg {
+        background-color: #c691b5;
+        margin-top: 5vw;
+        padding-top: 15vw;
+    }
+
+    /*------------------------------Form*/
 
     .center-form {
         text-align: center;
         padding-top: 7%;
         max-width: 62.5%;
     }
-}
 
-/* If the screen size is 770px wide or less  */
-
-@media screen and (max-width: 770px) {
-
-
-    .question-header {
-        font-size: 15vw;
-        padding-top: 10vw;
+    .content-margin {
+        padding: 1%;
     }
 
-    .picture-contact {
-        padding: 5%;
-        width: 40vw;
-        margin: 0 auto;
-        ;
+    .subject-box {
+        color: rgb(64 117 161);
     }
 
-    .center-form {
-        padding: 4%;
-
-        max-width: 80%;
-        margin: 0 auto;
+    .form-control::placeholder {
+        color: rgb(64 117 161);
     }
 
     button[type="submit"] {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        color: #ffffff;
+        background-color: rgb(64 117 161);
+    }
 
-        margin-bottom: 15%;
+    /*------------------------------Other details*/
+
+    .contact-detail-h3 {
+        color: #ffffff;
+        font-family: 'Cookie', sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 3%;
+    }
+
+    .contact-detail-h4 {
+        color: rgb(64 117 161);
+        font-family: "roboto-slab",
+            sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 3%;
+    }
+
+    .contact-detail-p {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 2%;
+        font-weight: 300;
+        font-size: 16px;
+        text-transform: none;
 
     }
-}
+
+    .page-space {
+        padding: 10%;
+        background-color: #c691b5;
+    }
+
+    /*------------------------------Contact form media queries*/
+
+    /* If the screen size is 1024px wide or less  */
 
 
-/*------------------------------Footer*/
+    @media screen and (max-width: 1024px) {
+        .center-form {
+            padding-top: 5%;
+        }
 
-footer {
-    background-color: #31BB9B;
-    height: 80px;
-    margin: 0%;
-}
 
-.social-media-icon i {
-    color: #8D236B;
-    padding: 20px 0;
-    height: 75px;
-    width: 75px;
-    font-size: 35px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+        button[type="submit"] {
+            margin-bottom: 5%;
+        }
+    }
 
-}
+    @media screen and (max-width: 980px) {
 
-.social-media-icon i:hover {
-    color: #ffcc33;
-    cursor: pointer;
-}
+        .question-header {
+            font-size: 100px;
+        }
 
+        .center-form {
+            text-align: center;
+            padding-top: 7%;
+            max-width: 62.5%;
+        }
+    }
+
+    /* If the screen size is 770px wide or less  */
+
+    @media screen and (max-width: 770px) {
+
+
+        .question-header {
+            font-size: 15vw;
+            padding-top: 10vw;
+        }
+
+        .picture-contact {
+            padding: 5%;
+            width: 40vw;
+            margin: 0 auto;
+            ;
+        }
+
+        .center-form {
+            padding: 4%;
+
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        button[type="submit"] {
+
+            margin-bottom: 15%;
+
+        }
+    }
+
+
+    /*------------------------------Footer*/
+
+    footer {
+        background-color: #31BB9B;
+        height: 80px;
+        margin: 0%;
+    }
+
+    .social-media-icon i {
+        color: #8D236B;
+        padding: 20px 0;
+        height: 75px;
+        width: 75px;
+        font-size: 35px;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+
+    }
+
+    .social-media-icon i:hover {
+        color: #ffcc33;
+        cursor: pointer;
+    }
