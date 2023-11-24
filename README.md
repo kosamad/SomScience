@@ -325,6 +325,20 @@ I also used the layout part of Chrome developer to assist with the positioning o
 
 [W3C](https://validator.w3.org/) was used to test the HTML on the website and validate the CSS.
 
+Please note that the error messages which relate to a "Trailing slash on void elements" have been filtered as they are automatically added by the browser and are not a true error. 
+
+* [index.html](documentation/screen_shots/validation/index.html-W3C.PNG)
+* [inside.html](documentation/screen_shots/validation/inside.html-W3C.PNG)
+* [visit.html](documentation/screen_shots/validation/visit.html-W3C.PNG)
+* [contact.html](documentation/screen_shots/validation/contact.html-W3C.PNG)
+* [css](documentation/screen_shots/validation/css-W3C.PNG)
+
+
+#### Lighthouse
+
+I used Lighthouse (a Crome developer too) to test the performance, quality and correctness of the SomScience site.
+
+
 ---
 
 ## Deployment & Local Development
