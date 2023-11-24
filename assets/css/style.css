@@ -13,7 +13,7 @@
 }
 
 .header-title {
-    color: #31BB9B;
+    color: #339b83;
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
@@ -31,7 +31,7 @@
 }
 
 .navbar-right a {
-    color: #31BB9B;
+    color: #339b83;
     font-weight: 600;
 }
 
@@ -627,7 +627,7 @@ button[type="submit"] {
 /*------------------------------Other details*/
 
 .contact-detail-h3 {
-    color: #ffffff;
+    color: #000000;
     font-family: 'Cookie', sans-serif;
     font-weight: 500;
     font-size: 30px;
@@ -645,7 +645,7 @@ button[type="submit"] {
 }
 
 .contact-detail-p {
-    color: #ffffff;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
     margin-left: 2%;
     font-weight: 300;
