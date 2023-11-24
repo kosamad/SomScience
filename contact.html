@@ -127,10 +127,13 @@
 
         <!-- Contact Form-->
 
-        <div class="col-md-8 center-form" aria-label="contact us form">
-          <form>
+        <div class="col-md-8 center-form">
+          <form aria-labelledby="contact-us-form">
             <div class="row">
               <div class="col-lg-6 col-md-12 content-margin">
+                <label id="contact-us-form" class="sr-only"
+                  >Contact Us Form</label
+                >
                 <input
                   type="text"
                   name="firstname"
@@ -170,20 +173,21 @@
                   name="subject"
                   aria-label="Subject dropdown menu"
                   required
+                  <select
                 >
-                  <option selected>Subject</option>
-                  <option>Visiting</option>
-                  <option>Membership</option>
-                  <option>Cafe</option>
-                  <option>Lab Experiences</option>
-                  <option>Something Else</option>
+                  <option value="" selected disabled>Please select</option>
+                  <option value="">Visiting</option>
+                  <option value="">Membership</option>
+                  <option value="">Cafe</option>
+                  <option value="">Lab Experiences</option>
+                  <option value="">Something Else</option>
                 </select>
               </div>
             </div>
             <div class="row">
               <div class="col-12 content-margin">
                 <textarea
-                  row="5"
+                  rows="4"
                   name="question"
                   id="question"
                   class="form-control row-number"
@@ -202,7 +206,7 @@
             </button>
           </form>
           <!-- Other methods of contact Container-->
-          <div class="col" aria-label="alternative contact details">
+          <div class="col">
             <h3 class="contact-detail-h3">
               Alternatively, you can catch us on:
             </h3>
@@ -222,7 +226,9 @@
         </div>
       </div>
 
-      <section class="page-space"></section>
+      <section>
+        <div class="page-space"></div>
+      </section>
     </section>
 
     <!-- Footer containing Social Media Links -->

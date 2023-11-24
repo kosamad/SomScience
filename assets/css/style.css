@@ -685,6 +685,13 @@ button[type="submit"] {
         padding-top: 7%;
         max-width: 62.5%;
     }
+
+    .picture-contact {
+
+
+        margin-top: 2%;
+        ;
+    }
 }
 
 /* If the screen size is 770px wide or less  */
