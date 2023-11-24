@@ -77,6 +77,7 @@
     border-radius: 1.5rem;
 }
 
+/*----------------------------- Media Querries for Index Page */
 
 /* If the screen size is 1024px wide or less  */
 
@@ -187,7 +188,12 @@
     color: #31BB9B;
 }
 
-/*------------------------------inside page*/
+
+
+/*------------------------------Inside page*/
+
+/*------------------------------Inside page sub navigation */
+
 .inside-h-bg {
     background-color: #c691b5;
     text-align: center;
@@ -195,18 +201,27 @@
     margin-top: 60px;
 }
 
-.about-bg {
-    background-color: #c691b5;
-}
-
 .inside-nav {
     text-decoration: none;
+    color: #ffffff;
+}
+
+.inside-header {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
     color: #ffffff;
 }
 
 .inside-nav:hover {
     color: #000000;
 }
+
+/*------------------------------Backgrounds */
+.about-bg {
+    background-color: #c691b5;
+}
+
 
 .discover-bg {
     background-color: rgba(64, 117, 161, 0.5);
@@ -228,6 +243,8 @@
     padding: 5% 2% 8%;
 }
 
+/*------------------------------Content */
+
 .inside-outer {
     padding: 15px;
 }
@@ -237,12 +254,6 @@
     margin-top: 20px;
 }
 
-.inside-header {
-    color: #000000;
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
-}
 
 .inside-box-left {
     padding: 1% 1% 1% 2%;
@@ -283,6 +294,9 @@
 
 
 /*------------------------------inside page media query*/
+
+/* If the screen size is 590px wide or less  */
+
 @media screen and (max-width: 590px) {
     .inside-sub-header {
 
@@ -306,7 +320,29 @@
 
 /*------------------------------visit page*/
 
-/*------------------------------prices*/
+/*------------------------------Price and Opening times/
+
+/*------------------------------Backgrounds*/
+
+#visit-left {
+    background-color: rgba(141, 35, 107, 0.5);
+    margin: 2%;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 1.5rem
+}
+
+#prices-background {
+    width: 100%;
+    background: url("../images/pexels-cottonbro-studio-8142680.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin-left: 0;
+    margin-top: 5%;
+    border-radius: 1.5rem;
+}
+
+/*-----------------------------Content*/
 
 .visit-header4 {
     color: #000000;
@@ -327,23 +363,16 @@
 }
 
 
-#visit-left {
-    background-color: rgba(141, 35, 107, 0.5);
-    margin: 2%;
-    padding: 20px;
+.open-p {
     font-family: 'Roboto', sans-serif;
-    border-radius: 1.5rem
+    margin-left: 1%;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0.5%;
+    color: #ffffff;
 }
 
-#prices-background {
-    width: 100%;
-    background: url("../images/pexels-cottonbro-studio-8142680.jpg") no-repeat center center;
-    background-size: cover;
-    position: relative;
-    margin-left: 0;
-    margin-top: 5%;
-    border-radius: 1.5rem;
-}
+/*-----------------------------Table*/
 
 
 .astrix {
@@ -362,17 +391,11 @@
     color: #ffffff;
 }
 
-.open-p {
-    font-family: 'Roboto', sans-serif;
-    margin-left: 1%;
-    font-weight: 400;
-    font-size: 15px;
-    margin-bottom: 0.5%;
-    color: #ffffff;
-}
 
 
 /*------------------------------other facilities*/
+
+/*------------------------------Backgrounds*/
 
 #other-fac-background {
     width: 100%;
@@ -394,6 +417,8 @@
     border-radius: 1.5rem;
 }
 
+/*------------------------------Content*/
+
 .facilities-list {
     margin-left: 1%;
     font-weight: 400;
@@ -407,7 +432,7 @@
     font-size: 16px;
 }
 
-/*------------------------------facilities map*/
+/*------------------------------Facilities address and map*/
 
 #visit-map {
     background-color: rgba(49, 187, 155, 0.9);
@@ -443,11 +468,16 @@
 }
 
 /*------------------------------visit page media query*/
+
+/* If the screen size is 1282px wide or less  */
+
 @media screen and (max-width: 1282px) {
     #prices-background {
         margin-top: 6.5vw;
     }
 }
+
+/* If the screen size is 990px wide or less  */
 
 @media screen and (max-width: 990px) {
 
@@ -482,6 +512,8 @@
 
 }
 
+/* If the screen size is 760px wide or less  */
+
 @media screen and (max-width: 760px) {
 
     #prices-background {
@@ -500,6 +532,8 @@
 
 
 }
+
+/* If the screen size is 440px wide or less  */
 
 @media screen and (max-width: 440px) {
     .visit-header4-open {
@@ -526,7 +560,7 @@
 
 
 
-/*------------------------------Contact form*/
+/*------------------------------Contact Page*/
 
 .question-header {
     color: #000000;
@@ -547,6 +581,8 @@
     padding-top: 15vw;
 }
 
+/*------------------------------Form*/
+
 .center-form {
     text-align: center;
     padding-top: 7%;
@@ -564,6 +600,15 @@
 .form-control::placeholder {
     color: rgb(64 117 161);
 }
+
+button[type="submit"] {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #ffffff;
+    background-color: rgb(64 117 161);
+}
+
+/*------------------------------Other details*/
 
 .contact-detail-h3 {
     color: #ffffff;
@@ -593,20 +638,16 @@
 
 }
 
-button[type="submit"] {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    color: #ffffff;
-    background-color: rgb(64 117 161);
-}
-
-
 .page-space {
     padding: 10%;
     background-color: #c691b5;
 }
 
 /*------------------------------Contact form media queries*/
+
+/* If the screen size is 1024px wide or less  */
+
+
 @media screen and (max-width: 1024px) {
     .center-form {
         padding-top: 5%;
@@ -629,9 +670,9 @@ button[type="submit"] {
         padding-top: 7%;
         max-width: 62.5%;
     }
-
-
 }
+
+/* If the screen size is 770px wide or less  */
 
 @media screen and (max-width: 770px) {
 
@@ -660,7 +701,6 @@ button[type="submit"] {
         margin-bottom: 15%;
 
     }
-
 }
 
 
