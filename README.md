@@ -1,8 +1,8 @@
 <h1 align="center">SomScience</h1>
 
-![SomScience on a variety of screen sizes(https:"load image from asets once deployed website")]
+![SomScience home page on different screens](documentation/screen_shots/home_page-screens.PNG)
 
-View the live website: [SomScience](https:"")
+View the live website: [SomScience](https://kosamad.github.io/SomScience/index.html)
 
 This is the website for a science museum based in Somerset - SomScience. An interactive, fun museum to inspire and engage everyone who might visit, but with a focus on the captivating children. The site intends to showcase the  main features of the museum in an visually appealing way to inspire a visit, and give key information that a visitor might require.
 
@@ -198,7 +198,7 @@ Google fonts was used to import fonts for this site. I have used a combination o
 
 ### Features
 
-Each of the website's pages will have a sticky, navigation tab that includes the museum's logo. This acts as a link back to the home page.
+Each of the website's pages will have a sticky, navigation tab that includes the museum's logo. This acts as a link back to the home page. The colour of each navigation item changes colour when it is selected/hovered over from green to black.
   
  ![navigation large example](documentation/screen_shots/navigation_pane_large.PNG)
 
@@ -212,11 +212,13 @@ Each of the website's pages will have a sticky, navigation tab that includes the
 
 #### The Home Page
 
+![home screen](documentation/screen_shots/home_page-screens.PNG)
+
  The home page captivates the user with a hero image which has a container displaying the museum's name (SomScience) with it's key slogan, "curiosity at it's best". Below this there are three images which summarise three key messages of the museum: discover, experience, interact. Each of these words navigate to the relavent section on the "inside" page.
 
- ADD IN IMAGE OF HOME SCREEN ON MULTIPLE DEVICES!!!!!!!!!!!!!!
-
 #### The Inside Page
+
+ ![inside screen](documentation/screen_shots/inside_page-screens.PNG)
 
  The sections of the museum are: discover, lab experience, cafe & shop and quiet space, each defined using a muted version of the pages chosen colours and containg three images related to it's content. There is also a breif summary of what each area offers with key words highlighted in bold.
 
@@ -228,21 +230,19 @@ Each of the website's pages will have a sticky, navigation tab that includes the
 
 ![back to top button](documentation/screen_shots/back-to-top-button.PNG).
 
- ADD IN IMAGE OF HOME SCREEN ON MULTIPLE DEVICES!!!!!!!!!!!!!!
-
 #### The Visit Page
+
+ ![visit screen](documentation/screen_shots/visit_page-screens.PNG)
 
 This page aims to give an user the key information they would need to successfully visit: prices, openeing times, facility info and the addres with a link that takes them to the contact page, should they have any more questions.
 
- ADD IN IMAGE OF HOME SCREEN ON MULTIPLE DEVICES!!!!!!!!!!!!!!
-
- Together with the address, a map appears on the page to improve UX and prevent a user having to navigate away from the page to find out where the museum is located.
+Together with the address, a map appears on the page to improve UX and prevent a user having to navigate away from the page to find out where the museum is located.
 
 ![visit map](documentation/screen_shots/visit_map.PNG).
 
 #### The Contact Page
 
- ADD IN IMAGE OF HOME SCREEN ON MULTIPLE DEVICES!!!!!!!!!!!!!!
+![contact page](documentation/screen_shots/contact_page-screens.PNG)
 
 The contact page gives the user the ability to submit a question to the museum. The form takes key details, first name, last name, email, with a subject box to direct the question to the right area of enquiry.
 
@@ -323,7 +323,7 @@ I also used the layout part of Chrome developer to assist with the positioning o
 
 #### W3C Validator
 
-[W3C](https://validator.w3.org/) was used to test the HTML on the website and validate the CSS. 
+[W3C](https://validator.w3.org/) was used to test the HTML on the website and validate the CSS.
 
 ---
 
@@ -331,14 +331,29 @@ I also used the layout part of Chrome developer to assist with the positioning o
 
 ### Deployment
 
-The SomScience website is deployed using GitHub pages - (DEPLOYED SITE LINK)
+The [SomScience website](<https://kosamad.github.io/SomScience/>) is deployed using GitHub pages using the following steps:
 
 1. Login (or signup) to Github.
-2. Navigate to the project repository,[]().
-3. WRITE FOLLOWING INSTRUCTIONS IN OWN HAND
-4. Click the settings button.
+2. Navigate to the project repository, [Somscience](https://github.com/kosamad/SomScience).
+4. Click the settings button at the top of the page.
 5. Select pages in the left hand navigation menu.
-6. From the source dropdown select main branch and press save.
-7. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+6. Under Build and Deployment, click the "Branch "dropdown menu and change it from "None", to "Main". Save.
+7. The site has now been deployed to Github pages.
+8. To find the site, click on "Deployments", on the right hand side of the repository.
+9. Under the Deployments menu on the left, select "All Environments"
+10. The deployed page can now be selected from the right, under github-pages.
 
-### Local Development
+### Forking the Github Repository
+
+To copy the original repository and make changes without effecting the deployed site, the repository can be forked. To do this:
+
+1. Log in to Github.
+2. Navigate to the project repository, [Somscience](https://github.com/kosamad/SomScience).
+3. Click on the "Fork" button at the top right of the page.
+
+### Cloning the Github Repository
+
+1. Log in to Github.
+2. Navigate to the project repository, [Somscience](https://github.com/kosamad/SomScience).
+3. Click on the code button and under the "Local" tab and select how you would like to clone (HTTPS, SSH or GitHub CLI.
+4. Copy the link and use it to create a new workspace in your chosen IDE (code editor).
