@@ -391,11 +391,31 @@ HTML, CSS and Javascript (via Bootsrap)
 ADD IN DEVICE TESTING ONCE GOT PEER FEEDBACK
 ---
 
-## Code Testing
+## Code Testing.
 
 Whilst buiding the site, I used Chrome developer tools to continuously test my page for responsiveness to diffrent screen sizes and to troubleshoot any problems as they arose, using a step by step approach to find and fix issues.
 
 I also used the layout part of Chrome developer to assist with the positioning of different elements on the page by experimenting with differernt margins and padding options.
+
+### Manual Testing.
+
+The website was viewed on Chrome, Internet Explorer, Microsoft Edge, Firefox and to check the view was consistent between browsers.  
+
+The website was also viewed on a desktop, mobile (pixel5 and iphone8) and a levono tablet.
+
+The website was reviewed by friends and family to ensure no bugs were present and to comment on the user experience.
+
+In each testing environment, users were asked to pay particular attention to the links and the overal look of the items on the page. 
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| :---: | :---: | :---: | :---: | :---: |
+| Logo and title (on each page) | Navigate to the home page | Clicked title and logo separately | Home page reloads | Pass |
+| Navigation menu (on each page) | Navigate to the correct page | Clicked on each link | Individual page loads | Pass |
+| Images and Titles on Home screen | Navigate to the Inside page | Clicked on each heading and image | Inside page loads | Pass |
+| Button on Home page | Navigate to the Inside page | Clicked on button | Inside page loads | Pass |
+| Sub-navigation menu on Inside page |  Navigate to the correct part of the page | Clicked on each heading | Jumps to the correct part of the page | Pass |
+| Back to top button | Navigates to the top of the Inside page | Clicked on button under each section | Jumps back to the top of the page | Pass |
+| Contact button on Visit page | Navigates to the contact page | Clicked on button | Navigates to Contact page | Pass |
 
 ### Automated Testing
 
@@ -417,14 +437,14 @@ I used Lighthouse (a Chrome Developer tool) to test the performance, quality and
 
 The site performs well across all areas apart from performance. A number of elements could be addressed in a future roll out to improve the load speed of the page. This includes eliminating blocking elements caused from external styling and image adjustments.
 
-* [index.html](documentation/screen_shots/validation/index_lighthouse_report.PNG)
+* ![index.html](documentation/screen_shots/validation/index_lighthouse_report.PNG)
   
-* [inside.html](documentation/screen_shots/validation/inside_lighthouse_report.PNG)
+* ![inside.html](documentation/screen_shots/validation/inside_lighthouse_report.PNG)
   
-* [visit.html](documentation/screen_shots/validation/visit_lighthouse_report.PNG)
+* ![visit.html](documentation/screen_shots/validation/visit_lighthouse_report.PNG)
   
   
-* [contact.html](documentation/screen_shots/validation/contact_lighthouse_report.PNG)
+* ![contact.html](documentation/screen_shots/validation/contact_lighthouse_report.PNG)
 
 ---
 
