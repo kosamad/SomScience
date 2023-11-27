@@ -1,5 +1,7 @@
 /*------------------------------General Styling*/
 
+/*--Google Fonts--*/
+
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@300;400;500&display=swap');
 
 .hover-pointer {
@@ -22,10 +24,12 @@
 
 }
 
+.navbar-nav {
+    margin-left: auto;
+}
 
 .navbar-right {
-    position: absolute;
-    right: 0px;
+    margin-left: auto;
     text-transform: uppercase;
     padding: 0 1%;
 }
