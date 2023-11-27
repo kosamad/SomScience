@@ -316,6 +316,79 @@ HTML, CSS and Javascript (via Bootsrap)
 
 ## Testing
 
+### User Stories from the [UX design](#user-stories)
+
+* #### Client Goals
+
+    1. To promote the museum and inspire people to visit with visually engaging, "fun" content that highlights the child target audience.
+
+       * The site is filled with fun, bright images that promote the museum's content and highlight visitors interacting with their hands.
+
+       * Children feature heavily in the images to highlight that the museum is primarily aimed at children.
+
+    2. To have clear, concise information that is easy to navigate and is accessible on multiple screen sizes and to those using screen readers.
+
+       * The website holds only key information to make it easy for a visitor to find what they are looking for.
+
+       * Navigation bars allow a user to move between sections easily (see details below).
+
+       * The site is fully responsive and contains aria attributes to cater to different screen sizes and those using screen readers.
+
+    3. To allow users to submit a question prior to visiting with acknowledgment (positive user experience) that the question has been submitted.
+
+       * A user can contact the museum using the information on the contact page. This includes a form, with a subject drop down to feed the question to the right team, and a direct email/tel number for more immediate enquiries.  
+
+       * The contact page is also accessible from the visit page through a call-to-action button, as many people look for this information next to a map.  
+
+* #### Testing First Time User Goals
+
+    1. To understand the purpose of the site and understand what attractions the museum offers.
+
+        * On the Home Page the user is met with a hero image portraying curiosity and children, immediately showcasing what this website is for.  
+
+        * A variety of images are shown to allow the user to see the multitude of exhibits and attractions at the museum
+
+        * The Inside Page allows the user to navigate between clearly defined sections which summarise the museum’s main features.  
+
+    2. To be able to navigate the page without any difficulties. 
+
+        * The navigation bar at the top of the page is cleanly designed and allows a user to move to the page of interest easily, with clearly named links.  
+
+        * The navigation bar is also sticky, so a user can navigate to a new page whenever they like, without having to scroll all the way back to the top and they do not feel stuck on any one page.  
+
+        * The Inside Page has a separate navigation bar and “back to top” buttons placed at the end of each section to aid easy navigation.  
+
+        * On smaller screens the main navigation bar toggles to give a better user experience.  
+
+    3. To be able to easily find the key information about the museum. 
+
+        * The museum’s information is clearly laid out in well-defined sections to aid easy reading.  
+
+        * This information is easily found through the navigation bar.
+
+        * There are two ways to get to the contact form (see above in client goals). This gives the user the impression the museum is helpful, and keen to hear from them I.e. they are a valued customer.  
+
+* #### Frequent/Return User Goals
+
+    1. To be able to jump to a particular section of the website quickly, without having to scroll
+
+        * Once familiar with the site, the information in the navigation bars allows a user to quickly find the section they are looking for.
+
+    2. To be able to ask a question via a contact form. 
+
+        * The form is well spaced with easy-to-read input boxes, allowing user to ask their question ahead of time
+
+    3. To be able to follow the museum on a chosen social media platform. 
+
+        * Social media links are at the bottom of the page, which is where they are expected to be as this is their position on most websites.  
+
+        * They are styled to fit in with the museum’s colour scheme and respond when the mouse hovers over them to improve UX
+
+---
+
+
+## Code Testing
+
 Whilst buiding the site, I used Chrome developer tools to continuously test my page for responsiveness to diffrent screen sizes and to troubleshoot any problems as they arose, using a step by step approach to find and fix issues.
 
 I also used the layout part of Chrome developer to assist with the positioning of different elements on the page by experimenting with differernt margins and padding options.
@@ -378,3 +451,8 @@ To copy the original repository and make changes without effecting the deployed 
 2. Navigate to the project repository, [Somscience](https://github.com/kosamad/SomScience).
 3. Click on the code button and under the "Local" tab and select how you would like to clone (HTTPS, SSH or GitHub CLI.
 4. Copy the link and use it to create a new workspace in your chosen IDE (code editor).
+
+
+### Solved Bugs
+NEED TO WRITE THIS BIT
+
