@@ -669,6 +669,38 @@ button[type="submit"] {
     background-color: rgb(64 117 161);
 }
 
+/*------------------------------ Thanks Page -----------------------------------*/
+
+.thanks-bg {
+    background-color: rgba(255, 204, 51, 0.5);
+    padding-top: 4vw;
+}
+
+
+.thanks-header {
+    color: #000000;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Cookie',
+        sans-serif;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.thanks-h2 {
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Cookie',
+        sans-serif;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.thanks-image {
+    margin-bottom: 3%;
+}
+
 /*------------------------------Other details */
 
 .contact-detail-h3 {
@@ -776,13 +808,13 @@ button[type="submit"] {
 
 footer {
     background-color: #31BB9B;
-    height: 80px;
     margin: 0%;
+
 }
 
 .social-media-icon i {
     color: #8D236B;
-    padding: 20px 0;
+    padding: 27px 0;
     height: 75px;
     width: 75px;
     font-size: 35px;
