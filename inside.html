@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="Description"
-        content="SomScience is fictional science museum for fun, interactive exhibits, lab experience and workshops for children and adults" />
-    <meta name="keywords"
-        content="science museum, somerset days out, children activity, days out with the kids, lab experience, interactive exhibits, cafe somerset, science shop" />
-
+    <meta
+      name="Description"
+      content="SomScience is fictional science museum for fun, interactive exhibits, lab experience and workshops for children and adults"
+    />
+    <meta
+      name="keywords"
+      content="science museum, somerset days out, children activity, days out with the kids, lab experience, interactive exhibits, cafe somerset, science shop"
+    />
 
     <!-- Favicon -->
     <link
@@ -56,7 +59,7 @@
   <body>
     <!-- Navigation Bar-->
 
-    <header class="container-fluid" id="backtop">
+    <header class="container-fluid">
       <nav class="navbar navbar-expand-md fixed-top nav-bg">
         <!-- SomScience Logo-->
         <a class="navbar-brand header-title hover-pointer" href="index.html">
@@ -117,11 +120,12 @@
     <!--Sub Menu containing inside page navigation-->
 
     <section class="container-fluid">
+      <div class="row" id="backtop"></div>
       <div class="row inside-h-bg justify-content-center inside-header">
         <div class="col-md-3">
           <a
             class="inside-nav hover-pointer"
-            href="#inside-section"
+            href="#discover-link"
             aria-label="go to the discover section"
             ><h2 class="inside-header">Discover</h2></a
           >
@@ -129,7 +133,7 @@
         <div class="col-md-3">
           <a
             class="inside-nav hover-pointer"
-            href="#lab-section"
+            href="#lab-link"
             aria-label="go to the lab experience section"
             ><h2 class="inside-header">Lab Experience</h2></a
           >
@@ -137,15 +141,15 @@
         <div class="col-md-3">
           <a
             class="inside-nav hover-pointer"
-            href="#cafe-section"
+            href="#cafe-link"
             aria-label="go to the cafe and shop section"
             ><h2 class="inside-header">Cafe & Shop</h2></a
           >
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" id="discover-link">
           <a
             class="inside-nav hover-pointer"
-            href="#quiet-section"
+            href="#quiet-link"
             aria-label="go to the quiet space section"
             ><h2 class="inside-header">Quiet Space</h2></a
           >
@@ -158,12 +162,11 @@
     <!--Background Colour-->
     <div
       class="container-fluid discover-bg"
-      id="discover-section"
       aria-labelledby="discover-section interactive-girl children-seesaw rainbow-hand"
     >
       <!--Title and Content -->
       <div class="row justify-content-center">
-        <div class="col-md-8 inside-box-left">
+        <div class="col-md-8 inside-box-left" id="discover-section">
           <div>
             <h2 class="inside-sub-header">Discover</h2>
             <p class="inside-p">
@@ -218,7 +221,7 @@
           </div>
         </div>
         <!--Button to top-->
-        <div class="button-top">
+        <div class="button-top" id="lab-link">
           <a
             href="#backtop"
             class="btn btn-inside hover-pointer"
@@ -232,18 +235,16 @@
     </div>
 
     <!--Section 2 about the Museum- Labs-->
-
     <!--Background Colour-->
 
     <div
       class="container-fluid lab-bg"
-      id="labs-section"
-      aria-labelledby="labs-section microscope-child smoking-tubes cutting-paper"
+      aria-labelledby="lab-section microscope-child smoking-tubes cutting-paper"
     >
       <!--Title and Content -->
       <div class="row justify-content-center">
         <div class="col-md-8 inside-box-left">
-          <div>
+          <div id="lab-section">
             <h2 class="inside-sub-header">Labs</h2>
             <p class="inside-p">
               Can you help us answer our Question of the Day?
@@ -292,7 +293,7 @@
           </div>
         </div>
         <!--Button to top-->
-        <div class="button-top">
+        <div class="button-top" id="cafe-link">
           <a
             href="#backtop"
             class="btn btn-inside hover-pointer"
@@ -315,8 +316,8 @@
     >
       <!--Title and Content -->
       <div class="row justify-content-center">
-        <div class="col-md-8 inside-box-left">
-          <div id="cafe-section">
+        <div class="col-md-8 inside-box-left" id="cafe-section">
+          <div>
             <h2 class="inside-sub-header">Cafe & Shop</h2>
             <p class="inside-p">
               Re-fuel your body in our <span class="bold-text">cosy cafe</span>.
@@ -366,7 +367,7 @@
         </div>
 
         <!--Button to top-->
-        <div class="button-top">
+        <div class="button-top" id="quiet-link">
           <a
             href="#backtop"
             class="btn btn-inside hover-pointer"
@@ -387,8 +388,8 @@
     >
       <!--Title and Content -->
       <div class="row justify-content-center">
-        <div class="col-md-8 inside-box-left">
-          <div id="quiet-section">
+        <div class="col-md-8 inside-box-left" id="quiet-section">
+          <div>
             <h2 class="inside-sub-header">Quiet Space</h2>
             <p class="inside-p">
               Sometimes we all need a little break from the noisy world. Our
