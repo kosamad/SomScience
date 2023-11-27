@@ -314,6 +314,8 @@ HTML, CSS and Javascript (via Bootsrap)
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - to spell check the webpage and readme file.
 
+* [GitHub Wiki Toc generator](https://ecotrust-canada.github.io/markdown-toc/) - to automatically create my contents page in the README.md file.
+
 ---
 
 ## Testing
@@ -352,7 +354,7 @@ HTML, CSS and Javascript (via Bootsrap)
 
         * The Inside Page allows the user to navigate between clearly defined sections which summarise the museum’s main features.  
 
-    2. To be able to navigate the page without any difficulties. 
+    2. To be able to navigate the page without any difficulties.
 
         * The navigation bar at the top of the page is cleanly designed and allows a user to move to the page of interest easily, with clearly named links.  
 
@@ -362,7 +364,7 @@ HTML, CSS and Javascript (via Bootsrap)
 
         * On smaller screens the main navigation bar toggles to give a better user experience.  
 
-    3. To be able to easily find the key information about the museum. 
+    3. To be able to easily find the key information about the museum.
 
         * The museum’s information is clearly laid out in well-defined sections to aid easy reading.  
 
@@ -376,11 +378,11 @@ HTML, CSS and Javascript (via Bootsrap)
 
         * Once familiar with the site, the information in the navigation bars allows a user to quickly find the section they are looking for.
 
-    2. To be able to ask a question via a contact form. 
+    2. To be able to ask a question via a contact form.
 
         * The form is well spaced with easy-to-read input boxes, allowing user to ask their question ahead of time
 
-    3. To be able to follow the museum on a chosen social media platform. 
+    3. To be able to follow the museum on a chosen social media platform.
 
         * Social media links are at the bottom of the page, which is where they are expected to be as this is their position on most websites.  
 
@@ -388,7 +390,6 @@ HTML, CSS and Javascript (via Bootsrap)
 
 ADD IN DEVICE TESTING ONCE GOT PEER FEEDBACK
 ---
-
 
 ## Code Testing
 
@@ -402,7 +403,7 @@ I also used the layout part of Chrome developer to assist with the positioning o
 
 [W3C](https://validator.w3.org/) was used to test the HTML on the website and validate the CSS.
 
-Please note that the error messages which relate to a "Trailing slash on void elements" have been filtered as they are automatically added by the browser and are not a true error. 
+Please note that the error messages which relate to a "Trailing slash on void elements" have been filtered as they are automatically added by the browser and are not a true error.
 
 * [index.html](documentation/screen_shots/validation/index.html-W3C.PNG) - passed
 * [inside.html](documentation/screen_shots/validation/inside.html-W3C.PNG) - passed
@@ -410,21 +411,25 @@ Please note that the error messages which relate to a "Trailing slash on void el
 * [contact.html](documentation/screen_shots/validation/contact.html-W3C.PNG) - passed
 * [css](documentation/screen_shots/validation/css-W3C.PNG) - passed
 
-
 #### Lighthouse
 
-I used Lighthouse (a Crome developer too) to test the performance, quality and correctness of the SomScience site.
-The site performs well across all areas apart from performance. A number of elements could be addressed in a future roll out to improve the load speed of the page. This includes eliminating blocking elements caused from external styling and image adjustments. 
+I used Lighthouse (a Chrome Developer tool) to test the performance, quality and correctness of the SomScience site.
 
-* [index.html](documentation/screen_shots/validation/index.html-W3C.PNG)
-* ![inside.html](documentation/screen_shots/validation/inside_lighthouse_report.PNG)
-* * [index.html](documentation/screen_shots/validation/index.html-W3C.PNG)
+The site performs well across all areas apart from performance. A number of elements could be addressed in a future roll out to improve the load speed of the page. This includes eliminating blocking elements caused from external styling and image adjustments.
+
+* [index.html](documentation/screen_shots/validation/index_lighthouse_report.PNG)
+  
+* [inside.html](documentation/screen_shots/validation/inside_lighthouse_report.PNG)
+  
+* [visit.html](documentation/screen_shots/validation/visit_lighthouse_report.PNG)
+  
+  
 * [contact.html](documentation/screen_shots/validation/contact_lighthouse_report.PNG)
-
 
 ---
 
 ## Solved Bugs
+
 NEED TO WRITE THIS BIT
 
 ---
@@ -462,9 +467,7 @@ To copy the original repository and make changes without effecting the deployed 
 
 ---
 
-## Credits
-
-
+## Credit
 
 ### Code
 
@@ -497,5 +500,3 @@ All content for this website was written by myself. However, I took inspiration 
 * Slack community and the Code Institue tutors for their add when I was stuck with the navigation toggler.
 
 * My mentor Jubril for the support, feedback and encouragement that he gave me during this milestone project.  
-
-
