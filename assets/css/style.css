@@ -48,6 +48,9 @@
     width: 100%;
     background: url("../images/pexels-yan-krukau-8617817.jpg") no-repeat center center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     position: relative;
     margin-top: 50px;
 }
@@ -87,8 +90,8 @@
 }
 
 .button-discover {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
     padding: 10px;
 
 }
@@ -100,6 +103,14 @@
 
 .home-btn-bg {
     background-color: rgba(64, 117, 161, 0.5);
+}
+
+.home-info {
+    color: #000000;
+    font-family: 'Cookie', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 3%;
 }
 
 
@@ -376,6 +387,9 @@
     width: 100%;
     background: url("../images/pexels-cottonbro-studio-8142680.jpg") no-repeat center center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     position: relative;
     margin-left: 0;
     margin-top: 5%;
@@ -443,6 +457,9 @@
     width: 100%;
     background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     position: relative;
     margin-left: 0;
     margin-top: 2vw;
@@ -547,6 +564,9 @@
         width: 100%;
         background: url("../images/pexels-mikhail-nilov-8307541.jpg") no-repeat center center;
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         position: relative;
         margin-left: 0;
         margin-top: 2%;
