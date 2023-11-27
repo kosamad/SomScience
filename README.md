@@ -168,7 +168,7 @@ Each page will be responsive and the user will be able to navigate between pages
 
  Using ColorZilla I chose the key colours from the logo to use throughout the website. The emphasis being on bright, fun, fresh, engaging.
 
- I arranged them to see how they would look together using Colour pallet.
+ I arranged them to see how they would look together using the [Coolers](https://coolors.co/) Colour pallet.
 
  ![SomScience Colour Scheme](documentation/SomScience.png)
 
@@ -280,7 +280,7 @@ To further check the assesibiltiy of my website, I used the [Web Disability Simu
 
 HTML, CSS and Javascript (via Bootsrap)
 
-### Frameworks, Libraries and Programmes Used
+### Frameworks, Libraries, Programmes and Tools Used
 
 * [Codeanywhere](https://app.codeanywhere.com/) - to create the site (IDE).
   
@@ -305,6 +305,8 @@ HTML, CSS and Javascript (via Bootsrap)
 * [Birme](https://www.birme.net/) - to resize images and compress images.
 
 * [TinyPNG](https://tinypng.com/) - to compress larger images.
+
+* [Coolers](https://coolors.co/) Colour pallet - to view the colour scheme.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) - to show what the website looks like on different devices.
 
@@ -368,7 +370,7 @@ HTML, CSS and Javascript (via Bootsrap)
 
         * There are two ways to get to the contact form (see above in client goals). This gives the user the impression the museum is helpful, and keen to hear from them I.e. they are a valued customer.  
 
-* #### Frequent/Return User Goals
+* #### Testing Frequent/Return User Goals
 
     1. To be able to jump to a particular section of the website quickly, without having to scroll
 
@@ -384,6 +386,7 @@ HTML, CSS and Javascript (via Bootsrap)
 
         * They are styled to fit in with the museum’s colour scheme and respond when the mouse hovers over them to improve UX
 
+ADD IN DEVICE TESTING ONCE GOT PEER FEEDBACK
 ---
 
 
@@ -421,6 +424,11 @@ The site performs well across all areas apart from performance. A number of elem
 
 ---
 
+## Solved Bugs
+NEED TO WRITE THIS BIT
+
+---
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -452,7 +460,42 @@ To copy the original repository and make changes without effecting the deployed 
 3. Click on the code button and under the "Local" tab and select how you would like to clone (HTTPS, SSH or GitHub CLI.
 4. Copy the link and use it to create a new workspace in your chosen IDE (code editor).
 
+---
 
-### Solved Bugs
-NEED TO WRITE THIS BIT
+## Credits
+
+
+
+### Code
+
+* I found the websites for resizing/converting images, logo creation, spelling error identification, responsive sizing and the disability checker from “The Quiz Arms” GitHub ReadMe file.
+
+* To learn how to embed a map into my website I watched this [YouTube video](https://www.youtube.com/watch?v=3posLKQrhfU).
+  
+* The Social Media icons - taken and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute.
+
+* Bootstrap - for navbar, grid systems, forms and other classes that I used to make the page responsive.  
+
+* Favicon - for the code to import icons into this project
+
+### Content
+
+All content for this website was written by myself. However, I took inspiration from the science museums [We the Curious](https://www.wethecurious.org/) and [Techniquest](https://www.techniquest.org/discover/whats-on/).
+
+### Media
+
+* All images are sourced from Pexels, with specific credit to:
+
+    Andrea Piacquadio, Billow, Charlotte May, Cottonbro Studio, Jessica Lewis, Kindal media, Lisa Fotios, Mart production, Marta Wave, Valeria Boltneva, Yan Krukau, Arthur Krijgsman, Mikhail Nilov, Rebecca Diack, Thirdman, Vlad Bagacian
+
+* My Logo image is sourced from Vecteezy.
+
+### Acknowledgments
+
+* Code Institute for all course material
+
+* Slack community and the Code Institue tutors for their add when I was stuck with the navigation toggler.
+
+* My mentor Jubril for the support, feedback and encouragement that he gave me during this milestone project.  
+
 
