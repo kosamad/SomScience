@@ -794,15 +794,32 @@ button[type="submit"] {
     }
 }
 
+@media screen and (max-width: 375px) {
+
+
+    .question-header {
+
+        padding-top: 30vw;
+    }
+
+    .visit-icon-gap {
+        padding-right: 5px;
+        display: none;
+    }
+
+}
+
 /*------------------------------ Thanks Page -----------------------------------*/
 
 
-.page-container  {min-height: 100vh;
-background-color: rgba(255, 204, 51, 0.5);}
+.page-container {
+    min-height: 92vh;
+    background-color: rgba(255, 204, 51, 0.5);
+}
 
 .thanks-bg {
-       padding-top: 4vw;
-    }
+    padding-top: 4vw;
+}
 
 .thanks-header {
     color: #000000;
@@ -869,7 +886,7 @@ background-color: rgba(255, 204, 51, 0.5);}
 @media screen and (max-width: 300px) {
 
     .thanks-header {
-        
+
         margin-top: 50%;
 
     }
