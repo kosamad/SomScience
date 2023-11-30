@@ -170,7 +170,13 @@
             method="POST"
             aria-labelledby="contact-us-form"
           >
-            <!-- Form name-->
+        <!-- Automatic re-direct page to the thanks page-->
+        <input type="hidden" name="_next" value="https://kosamad.github.io/SomScience/thanks.html" />
+            
+        <!-- removes reCAPTCHA although not reccomended for real websites as removes bots-->
+        <input type="hidden" name="_captcha" value="false" />
+        
+        <!-- Form name-->
             <div class="row">
               <div class="col-lg-6 col-md-12 content-margin">
                 <label id="contact-us-form" class="sr-only"
@@ -253,16 +259,9 @@
               Submit
             </button>
 
-            <!-- Automatic re-direct page to the thanks page-->
-            <input
-              type="hidden"
-              name="_next"
-              value="https://kosamad.github.io/SomScience/thanks.html"
-            />
-
-            <!-- removes reCAPTCHA although not reccomended for real websites as removes bots-->
-            <input type="hidden" name="_captcha" value="false" />
-          </form>
+           
+</form>
+            
 
           <!-- Other methods of contact Container-->
           <div class="col">
