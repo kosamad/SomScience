@@ -200,11 +200,11 @@
 
 .showbox-container h2 {
 
-    
+
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    
+
 }
 
 
@@ -217,7 +217,8 @@
     border-radius: 1.5rem;
 }
 
-.index-nav-container {background-color: #c691b5;
+.index-nav-container {
+    background-color: #c691b5;
     border-radius: 1.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -230,7 +231,7 @@
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-       
+
 }
 
 
@@ -694,7 +695,7 @@ button[type="submit"] {
     text-align: center;
     font-family: 'Cookie',
         sans-serif;
-    padding: 2%;
+    padding-top: 5%;
     margin: 0 auto;
 }
 
@@ -704,12 +705,32 @@ button[type="submit"] {
     text-align: center;
     font-family: 'Cookie',
         sans-serif;
-    padding: 2%;
     margin: 0 auto;
 }
 
 .thanks-image {
-    margin-bottom: 3%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+/* If the screen size is 560px wide or less */
+
+@media screen and (max-width: 560px) {
+
+    .thanks-header {
+        font-size: 80px;
+        margin-top: 20%;
+
+    }
+
+    .thanks-h2 {
+        font-size: 30px;
+    }
+
+    .thanks-image {
+        margin-bottom: 20%;
+
+    }
 }
 
 /*------------------------------Other details */
