@@ -391,13 +391,13 @@ HTML, CSS and Javascript (via Bootsrap)
 ADD IN DEVICE TESTING ONCE GOT PEER FEEDBACK
 ---
 
-## Code Testing.
+## Code Testing
 
 Whilst buiding the site, I used Chrome developer tools to continuously test my page for responsiveness to diffrent screen sizes and to troubleshoot any problems as they arose, using a step by step approach to find and fix issues.
 
 I also used the layout part of Chrome developer to assist with the positioning of different elements on the page by experimenting with differernt margins and padding options.
 
-### Manual Testing.
+### Manual Testing
 
 The website was viewed on Chrome, Internet Explorer, Microsoft Edge, Firefox and to check the view was consistent between browsers.  
 
@@ -405,7 +405,7 @@ The website was also viewed on a desktop, mobile (pixel5 and iphone8) and a levo
 
 The website was reviewed by friends and family to ensure no bugs were present and to comment on the user experience.
 
-In each testing environment, users were asked to pay particular attention to the links and the overal look of the items on the page. 
+In each testing environment, users were asked to pay particular attention to the links and the overal look of the items on the page.
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :---: | :---: | :---: | :---: | :---: |
@@ -442,7 +442,6 @@ The site performs well across all areas apart from performance. A number of elem
 * ![inside.html](documentation/screen_shots/validation/inside_lighthouse_report.PNG)
   
 * ![visit.html](documentation/screen_shots/validation/visit_lighthouse_report.PNG)
-  
   
 * ![contact.html](documentation/screen_shots/validation/contact_lighthouse_report.PNG)
 
@@ -509,7 +508,7 @@ All content for this website was written by myself. However, I took inspiration 
 
 * All images are sourced from Pexels, with specific credit to:
 
-    Andrea Piacquadio, Billow, Charlotte May, Cottonbro Studio, Jessica Lewis, Kindal media, Lisa Fotios, Mart production, Marta Wave, Valeria Boltneva, Yan Krukau, Arthur Krijgsman, Mikhail Nilov, Rebecca Diack, Thirdman, Vlad Bagacian
+    Andrea Piacquadio, Billow, Charlotte May, Cottonbro Studio, Jessica Lewis, Kindal media, Lisa Fotios, Mart production, Marta Wave, Valeria Boltneva, Yan Krukau, Arthur Krijgsman, Mikhail Nilov, Rebecca Diack, Thirdman, Vlad Bagacian, and ketut-subiyanto.
 
 * My Logo image is sourced from Vecteezy.
 
