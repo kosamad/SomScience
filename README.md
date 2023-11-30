@@ -290,7 +290,7 @@ HTML, CSS and Javascript (via Bootsrap)
 
 * [Git](https://git-scm.com/) - for version control, using the Gittpod terminal to commit to Git and Push to GitHub.
 
-* [Bootstrap version 5.3](https://getbootstrap.com/) - to onput different features of the website and assist responsive styling.
+* [Bootstrap version 5.3](https://getbootstrap.com/) - to input different features of the website and assist responsive styling using the drid system.
 
 * [Font Awesome:](https://fontawesome.com/) - to add familiure icons and improve the UX.
 
@@ -316,7 +316,7 @@ HTML, CSS and Javascript (via Bootsrap)
 
 * [GitHub Wiki Toc generator](https://ecotrust-canada.github.io/markdown-toc/) - to automatically create my contents page in the README.md file.
 
-*[Form Submit](https://formsubmit.co/) - to automatically move to a thank you page after the form submit. 
+* [Form Submit](https://formsubmit.co/) - to automatically move to a thank you page after the form submit.
 
 ---
 
@@ -390,34 +390,34 @@ HTML, CSS and Javascript (via Bootsrap)
 
         * They are styled to fit in with the museum’s colour scheme and respond when the mouse hovers over them to improve UX
 
-ADD IN DEVICE TESTING ONCE GOT PEER FEEDBACK
 ---
 
 ## Code Testing
 
-Whilst buiding the site, I used Chrome developer tools to continuously test my page for responsiveness to diffrent screen sizes and to troubleshoot any problems as they arose, using a step by step approach to find and fix issues.
+Whilst building the site, I used Chrome developer tools to continuously test my page for responsiveness to different screen sizes and to troubleshoot any problems as they arose, using a step-by-step approach to find and fix issues.
 
-I also used the layout part of Chrome developer to assist with the positioning of different elements on the page by experimenting with differernt margins and padding options.
+I also used the layout part of Chrome developer to assist with the positioning of different elements on the page by experimenting with different margins and padding options.
 
 ### Manual Testing
 
 The website was viewed on Chrome, Internet Explorer, Microsoft Edge, Firefox and to check the view was consistent between browsers.  
 
-The website was also viewed on a desktop, mobile (pixel5 and iphone8) and a levono tablet.
+The website was also viewed on a desktop, mobile (pixel5 and iphone8) and a Levona tablet.
 
-The website was reviewed by friends and family to ensure no bugs were present and to comment on the user experience.
+The website was reviewed by friends and family to ensure no bugs were present and to comment on the user experience. In each testing environment, users were asked to pay particular attention to the links and the overall look of the items on the page. They fed back that it would be more user friendly to link the “inside” page to the home page more (as all the link words went to the top of the inside page). I.e. link the lab experience section with the lab part on the inside page and highlight the café and quiet space. I therefore rearranged the images/names and links to fulfil this user experience.  
 
-In each testing environment, users were asked to pay particular attention to the links and the overal look of the items on the page.
+They fed back that all links worked and was responsive on different devices.
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :---: | :---: | :---: | :---: | :---: |
 | Logo and title (on each page) | Navigate to the home page | Clicked title and logo separately | Home page reloads | Pass |
 | Navigation menu (on each page) | Navigate to the correct page | Clicked on each link | Individual page loads | Pass |
-| Images and Titles on Home screen | Navigate to the Inside page | Clicked on each heading and image | Inside page loads | Pass |
+| Images and Titles on Home screen | Navigate to the correct sections on Inside page | Clicked on each heading and image | Inside page loads | Pass |
 | Button on Home page | Navigate to the Inside page | Clicked on button | Inside page loads | Pass |
 | Sub-navigation menu on Inside page |  Navigate to the correct part of the page | Clicked on each heading | Jumps to the correct part of the page | Pass |
 | Back to top button | Navigates to the top of the Inside page | Clicked on button under each section | Jumps back to the top of the page | Pass |
 | Contact button on Visit page | Navigates to the contact page | Clicked on button | Navigates to Contact page | Pass |
+| Submit button on Contact page| Automatically re-directs to the Thanks page | Submitted a form| Navigates to Thanks page | Pass |
 
 ### Automated Testing
 
@@ -431,6 +431,7 @@ Please note that the error messages which relate to a "Trailing slash on void el
 * [inside.html](documentation/screen_shots/validation/inside.html-W3C.PNG) - passed
 * [visit.html](documentation/screen_shots/validation/visit.html-W3C.PNG) - passed
 * [contact.html](documentation/screen_shots/validation/contact.html-W3C.PNG) - passed
+* [thfffffff]
 * [css](documentation/screen_shots/validation/css-W3C.PNG) - passed
 
 #### Lighthouse
@@ -451,7 +452,43 @@ The site performs well across all areas apart from performance. A number of elem
 
 ## Solved Bugs
 
-NEED TO WRITE THIS BIT
+ **1. Lost footer on visit page**
+
+* Navigating to the visit page, I lost the styling for the footer ([Image: footer missing](documentation/bugs/footer-missing.PNG), point 1).
+
+* Attempt 1: tried copying and pasting code again from other pages again to check hadn’t accidentally deleted something.  
+
+* I then checked the other pages which revealed further formatting issues (image 1, point 2) and also the footer was also missing on the index page.  
+
+* Attempt 2: Scrutinized the CSS code and found a { missing from a media query.
+
+ **2. Pages show "I" when hovering over links**
+
+* On page a I shows instead of a mouse over links.  
+
+* Attempt 1: Added a “cursor : pointer” to hover class.
+
+* Attempt 2: Added a new “.cursor”, hover class to specific elements that I want to show the pointer on. This solved my issue on the logo image but not for any words. Developer tools showed that a elemnt.style (cursor-text) is automatically being applied.  
+
+* Attempt 3: Added a “!important“ after a hover class overrides the BootStrap styling.
+
+ **3. Bootstrap Nav Bar Toggler not working**
+
+* **Issue 1:**- Toggle button not pressing at all.
+
+* Attempt 1: After re-reading the Bootstrap documentation I realised I needed to put the "script" part of the Bootstrap code into the bottom of my page as this contains the "popper" which controls the nav bar toggler.
+
+* **Issue 2:**- Menu overlays the rest of the page ([Image: menu overlay](documentation/bugs/menu-overlay.PNG)).
+  
+* Using both the core [Bootstrap code](https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works) and the [Caterpilla_Montessori_MS_1](https://github.com/constantinadrian/Caterpillar_Montessori_MS_1) project for comparison,, I went through the code step by step to highlight any differences in the code.  
+
+* Attempt 1: Required the additional "ml-auto" class for the "ul" and then modifications to the class (navbar-right) to put the styling in the correct place (added it to the div above). I also had to put an automatic margin on the navbar-nav class to push the content to the left.
+
+**4. Margin at the top of the Inside page**
+
+* When using the "back to top" link there was a margin at the top of the page which is poor UX ([Image: margin](documentation/bugs/margin.PNG)).
+
+* Attempt 1: Added an additional "div" with a class "row" and then the id linking the content back to the top.  
 
 ---
 
@@ -501,6 +538,8 @@ To copy the original repository and make changes without effecting the deployed 
 * The Social Media icons - taken and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute.
 
 * Bootstrap - for navbar, grid systems, forms and other classes that I used to make the page responsive.  
+
+* To solve the nav-bar toggler bug I used the [Caterpilla_Montessori_MS_1](https://github.com/constantinadrian/Caterpillar_Montessori_MS_1) project to compare my HTML/CSS code with a working site.
 
 * Favicon - for the code to import icons into this project
 
