@@ -316,6 +316,8 @@ HTML, CSS and Javascript (via Bootsrap)
 
 * [GitHub Wiki Toc generator](https://ecotrust-canada.github.io/markdown-toc/) - to automatically create my contents page in the README.md file.
 
+*[Form Submit](https://formsubmit.co/) - to automatically move to a thank you page after the form submit. 
+
 ---
 
 ## Testing
@@ -493,6 +495,8 @@ To copy the original repository and make changes without effecting the deployed 
 * I found the websites for resizing/converting images, logo creation, spelling error identification, responsive sizing and the disability checker from “The Quiz Arms” GitHub ReadMe file.
 
 * To learn how to embed a map into my website I watched this [YouTube video](https://www.youtube.com/watch?v=3posLKQrhfU).
+
+* To understand how to add a Thank you page I watched this [YouTube video](https://www.youtube.com/watch?v=r4RQ38EoLds) and set up a form using the code from [Form Submit](https://formsubmit.co/) using a fictional email address (somscience.fictional.site@gmail.com).
   
 * The Social Media icons - taken and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute.
 
