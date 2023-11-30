@@ -2,7 +2,7 @@
 
 ![SomScience home page on different screens](documentation/screen_shots/home_page-screens.PNG)
 
-View the live website: [SomScience](https://kosamad.github.io/SomScience/index.html)
+## View the live website: [SomScience](https://kosamad.github.io/SomScience/index.html)
 
 This is the website for a science museum based in Somerset - SomScience. An interactive, fun museum to inspire and engage everyone who might visit, but with a focus on the captivating children. The site intends to showcase the  main features of the museum in an visually appealing way to inspire a visit, and give key information that a visitor might require.
 
@@ -119,7 +119,10 @@ The website will consist of an introductory page showcasing the main features of
   4. Contact
      * Form to input question
      * Additional contact info (tel, email)
-  5. Every Page
+     * Auto direct to a "Thanks" page
+  5. Thanks
+     * Thank you page that responds to a users form submission, improving UX.
+  6. Every Page
      * Sticky navigation bar that toggles on small screens inc logo which takes back to home screen
      * Footer containing the museum's social media links (as this site is fictional, these will link to the home pages)
   
@@ -137,15 +140,19 @@ Wireframes outline how the content will be veiwed on different devices. They wer
 
 2. Inside page
 
-![inside page](documentation/wireframes/inside_wireframe.png)
+![inside page](documentation/wireframes/inside-wireframe.png)
 
-3. Visit page
+1. Visit page
 
 ![visit page](documentation/wireframes/visit-wireframe.png)
 
 4. Contact page
 
 ![contact page](documentation/wireframes/contact-wireframe.png)
+
+5. Thanks page
+
+![thanks page](documentation/wireframes/thanks-wireframe.png)
 
 Each page will be responsive and the user will be able to navigate between pages in multiple ways. Clicking the:
 
@@ -246,7 +253,13 @@ Together with the address, a map appears on the page to improve UX and prevent a
 
 The contact page gives the user the ability to submit a question to the museum. The form takes key details, first name, last name, email, with a subject box to direct the question to the right area of enquiry.
 
-The image on this page links back the logo and represents the lightbulb "idea" and asking a question.
+Upon submitting the form the user is automatically directed to the Thanks page. 
+
+The image on this page relates to the logo and represents the lightbulb "idea" and asking a question.
+
+#### The Thanks Page
+![thanks page](documentation/screen_shots/)
+
 
 ### Future roll outs
 
@@ -256,7 +269,8 @@ In the future i'd like to address features that correspond to [phase 2](#table-2
 2. Give users the oppertunity to book tickets and the lab experience online before visiting.
 3. Give users the option to become members online.
 4. Add a virtual tour of the museum's main exhibtion space on the "inside page"
-5. Improve the performance of the page (see [Testing](#testing) section below)
+5. Improve the performance of the pages (see [Testing](#testing) section below)
+6. Improve the Thanks page so that it loads quicker or uses an alternative form of thanks e.g. a Modal. 
 
 ### Accessibility
 
