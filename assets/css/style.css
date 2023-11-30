@@ -797,6 +797,7 @@ button[type="submit"] {
 .thanks-bg {
     background-color: rgba(255, 204, 51, 0.5);
     padding-top: 4vw;
+    height: 100%;
 }
 
 
@@ -826,9 +827,26 @@ button[type="submit"] {
 
 /*------------------------------thanks page media queries--*/
 
-/* If the screen size is 560px wide or less */
+/* If the screen size is 860px wide or less */
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 860px) {
+
+    .thanks-header {
+        font-size: 120px;
+        margin-top: 20%;
+
+    }
+
+    .thanks-h2 {
+        font-size: 40px;
+    }
+
+    .thanks-image {
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 400px) {
 
     .thanks-header {
         font-size: 80px;
@@ -842,7 +860,6 @@ button[type="submit"] {
 
     .thanks-image {
         margin-bottom: 20%;
-
     }
 }
 
