@@ -679,59 +679,16 @@ button[type="submit"] {
     margin-bottom: 3%;
     color: #ffffff;
     background-color: rgb(64 117 161);
+    border-color: rgb(64 117 161);
+
 }
 
-/*------------------------------ Thanks Page -----------------------------------*/
-
-.thanks-bg {
-    background-color: rgba(255, 204, 51, 0.5);
-    padding-top: 4vw;
+.btn-primary:hover {
+    background-color: #8D236B;
+    border-color: #8D236B;
+    cursor: pointer;
 }
 
-
-.thanks-header {
-    color: #000000;
-    font-size: 150px;
-    text-align: center;
-    font-family: 'Cookie',
-        sans-serif;
-    padding-top: 5%;
-    margin: 0 auto;
-}
-
-.thanks-h2 {
-    color: #000000;
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Cookie',
-        sans-serif;
-    margin: 0 auto;
-}
-
-.thanks-image {
-    margin-bottom: 10%;
-    margin-top: 3%;
-}
-
-/* If the screen size is 560px wide or less */
-
-@media screen and (max-width: 560px) {
-
-    .thanks-header {
-        font-size: 80px;
-        margin-top: 20%;
-
-    }
-
-    .thanks-h2 {
-        font-size: 30px;
-    }
-
-    .thanks-image {
-        margin-bottom: 20%;
-
-    }
-}
 
 /*------------------------------Other details */
 
@@ -835,6 +792,59 @@ button[type="submit"] {
     }
 }
 
+/*------------------------------ Thanks Page -----------------------------------*/
+
+.thanks-bg {
+    background-color: rgba(255, 204, 51, 0.5);
+    padding-top: 4vw;
+}
+
+
+.thanks-header {
+    color: #000000;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Cookie',
+        sans-serif;
+    padding-top: 5%;
+    margin: 0 auto;
+}
+
+.thanks-h2 {
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Cookie',
+        sans-serif;
+    margin: 0 auto;
+}
+
+.thanks-image {
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+/*------------------------------thanks page media queries--*/
+
+/* If the screen size is 560px wide or less */
+
+@media screen and (max-width: 560px) {
+
+    .thanks-header {
+        font-size: 80px;
+        margin-top: 20%;
+
+    }
+
+    .thanks-h2 {
+        font-size: 30px;
+    }
+
+    .thanks-image {
+        margin-bottom: 20%;
+
+    }
+}
 
 /*------------------------------ Footer -----------------------------------*/
 

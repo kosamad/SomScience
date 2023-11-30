@@ -164,16 +164,19 @@
         <!-- Contact Form-->
 
         <div class="col-md-8 center-form">
+          <!-- Where the information gets sent-->
           <form
             action="https://formsubmit.co/somscience.fictional.site@gmail.com"
             method="POST"
             aria-labelledby="contact-us-form"
           >
+            <!-- Form name-->
             <div class="row">
               <div class="col-lg-6 col-md-12 content-margin">
                 <label id="contact-us-form" class="sr-only"
                   >Contact Us Form</label
                 >
+                <!-- first name box-->
                 <input
                   type="text"
                   name="firstname"
@@ -184,6 +187,7 @@
                 />
               </div>
               <div class="col-lg-6 col-md-12 content-margin">
+                <!-- last name box-->
                 <input
                   type="text"
                   name="lastname"
@@ -196,6 +200,7 @@
             </div>
             <div class="row">
               <div class="col-lg-6 col-md-12 content-margin">
+                <!-- email address box-->
                 <input
                   type="email"
                   name="email"
@@ -207,6 +212,7 @@
                 />
               </div>
               <div class="col-lg-6 col-md-12 content-margin">
+                <!-- subject drop down box-->
                 <select
                   id="subject-dropdown"
                   class="form-select subject-box"
@@ -224,6 +230,7 @@
               </div>
             </div>
             <div class="row">
+              <!-- space for question-->
               <div class="col-12 content-margin">
                 <textarea
                   rows="4"
@@ -236,27 +243,27 @@
                 ></textarea>
               </div>
             </div>
-            <input type="hidden" name="_captcha" value="false">
+
+            <!-- Submit button-->
+            <button
+              type="submit"
+              class="btn btn-primary"
+              aria-label="submit button"
+            >
+              Submit
+            </button>
+
+            <!-- Automatic re-direct page to the thanks page-->
             <input
               type="hidden"
               name="_next"
               value="https://kosamad.github.io/SomScience/thanks.html"
             />
-            <button
-              type="submit"
-              class="btn btn-primary"
-              aria-label="submit button"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Submit
-            </button>
-            <input
-              type="hidden"
-              name="_autoresponse"
-              value="We've got your question and will get back to you as soon as we can"
-            />
+
+            <!-- removes reCAPTCHA although not reccomended for real websites as removes bots-->
+            <input type="hidden" name="_captcha" value="false" />
           </form>
+
           <!-- Other methods of contact Container-->
           <div class="col">
             <h2 class="contact-detail-h3">
