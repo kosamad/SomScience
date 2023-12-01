@@ -4,7 +4,7 @@
 
 <h2>
 
-[View the live website: SomScience](https://kosamad.github.io/SomScience/index.html)
+[View the live website here: SomScience](https://kosamad.github.io/SomScience/index.html)
 
 </h2>
 
@@ -625,6 +625,6 @@ All content for this website was written by myself. However, I took inspiration 
 
 - Code Institute for all course material
 
-- Slack community and the Code Institue tutors for their add when I was stuck with the navigation toggler.
+- Slack community and the Code Institue tutors for their aid when I was stuck with the navigation toggler.
 
 - My mentor Jubril Akolade for the support, feedback and encouragement that he gave me during this milestone project.  
