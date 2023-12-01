@@ -215,7 +215,7 @@ Each of the website's pages will have a sticky, navigation tab that includes the
 
  At the foot of each page are links to the museum's social media platforms (as this is a ficitional site, these are set to the home page)
 
-  ![footer](documentation/screen_shots/footer.PNG)
+ ![footer](documentation/screen_shots/footer.PNG)
 
 #### The Home Page
 
@@ -239,7 +239,7 @@ Each of the website's pages will have a sticky, navigation tab that includes the
 
 #### The Visit Page
 
- ![visit screen](documentation/screen_shots/visit_page-screens.PNG)
+![visit screen](documentation/screen_shots/visit_page-screens.PNG)
 
 This page aims to give an user the key information they would need to successfully visit: prices, openeing times, facility info and the addres with a link that takes them to the contact page, should they have any more questions.
 
@@ -251,15 +251,18 @@ Together with the address, a map appears on the page to improve UX and prevent a
 
 ![contact page](documentation/screen_shots/contact_page-screens.PNG)
 
-The contact page gives the user the ability to submit a question to the museum. The form takes key details, first name, last name, email, with a subject box to direct the question to the right area of enquiry.
+The contact page gives the user the ability to submit a question to the museum. The form takes key details, first name, last name, email, with a subject box to direct the question to the right area of enquiry. It has been set up to automatically send the question to an email address (somscience.fictional.site@gmail.com) for which I hold the log in details.
 
 Upon submitting the form the user is automatically directed to the Thanks page. 
 
 The image on this page relates to the logo and represents the lightbulb "idea" and asking a question.
 
 #### The Thanks Page
-![thanks page](documentation/screen_shots/)
+![thanks page](documentation/screen_shots/thanks_page-screens.PNG)
 
+The thanks page provides positive user feedback after submitting a form, reassuring them that their question has been submited. It is otherwise hidden from veiw on the main website. 
+
+The user can then navigate back to the other pages using the navigation bar at the top. 
 
 ### Future roll outs
 
@@ -454,13 +457,15 @@ I used Lighthouse (a Chrome Developer tool) to test the performance, quality and
 
 The site performs well across all areas apart from performance. A number of elements could be addressed in a future roll out to improve the load speed of the page. This includes eliminating blocking elements caused from external styling and image adjustments.
 
-* ![index.html](documentation/screen_shots/validation/index_lighthouse_report.PNG)
+![index.html](documentation/screen_shots/validation/index_lighthouse_report.PNG)
   
-* ![inside.html](documentation/screen_shots/validation/inside_lighthouse_report.PNG)
+![inside.html](documentation/screen_shots/validation/inside_lighthouse_report.PNG)
   
-* ![visit.html](documentation/screen_shots/validation/visit_lighthouse_report.PNG)
+![visit.html](documentation/screen_shots/validation/visit_lighthouse_report.PNG)
   
-* ![contact.html](documentation/screen_shots/validation/contact_lighthouse_report.PNG)
+![contact.html](documentation/screen_shots/validation/contact_lighthouse_report.PNG)
+
+![thanks.html](documentation/screen_shots/validation/thanks_lighthouse_report.PNG)
 
 ---
 
@@ -575,4 +580,4 @@ All content for this website was written by myself. However, I took inspiration 
 
 * Slack community and the Code Institue tutors for their add when I was stuck with the navigation toggler.
 
-* My mentor Jubril for the support, feedback and encouragement that he gave me during this milestone project.  
+* My mentor Jubril Akolade for the support, feedback and encouragement that he gave me during this milestone project.  
