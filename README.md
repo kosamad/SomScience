@@ -489,13 +489,13 @@ They fed back that all links worked and was responsive on different devices.
 
 [W3C](https://validator.w3.org/) was used to test the HTML on the website and validate the CSS.
 
-Please note that the error messages which relate to a "Trailing slash on void elements" have been filtered as they are automatically added by the browser and are not a true error.
+Please note that the error messages which relate to a "Trailing slash on void elements" have been filtered as they are automatically added by the browser and are not a true error (as advised by the CI tutors).
 
 - [index.html](documentation/screen_shots/validation/index.html-W3C.PNG) - passed
 - [inside.html](documentation/screen_shots/validation/inside.html-W3C.PNG) - passed
 - [visit.html](documentation/screen_shots/validation/visit.html-W3C.PNG) - passed
 - [contact.html](documentation/screen_shots/validation/contact.html-W3C.PNG) - passed
-- [thfffffff]
+- [thanks.html](documentation/screen_shots/validation/thanks.html-W3C.PNG) - passed
 - [css](documentation/screen_shots/validation/css-W3C.PNG) - passed
 
 #### Lighthouse
