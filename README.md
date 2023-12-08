@@ -66,7 +66,7 @@ This is the website for a science museum based in Somerset - SomScience. An inte
 
 ## User Experience (UX)
 
-Using UX design principles, I contemplated the key features a science museum could have and the corresponding information a website would need to contain.
+Using UX design principles, I contemplated the key features a science museum could have and the corresponding information a website would need to contain. A the museum is based in Somerset I decided to name it SomScience, a play on the words "SOM"erset and "SCIENCE".
 
 ### The Museum's Features
 
