@@ -289,7 +289,7 @@ Each of the website's pages will have a sticky, navigation tab that includes the
 
 This page aims to give an user the key information they would need to successfully visit: prices, openeing times, facility info and the addres with a link that takes them to the contact page, should they have any more questions.
 
-Together with the address, a map appears on the page to improve UX and prevent a user having to navigate away from the page to find out where the museum is located.
+Together with the address, a map appears on the page to improve UX and prevent a user having to navigate away from the page to find out where the museum is located. Thi shas been centered on Taunton, where the museum is fictionally set.
 
 ![visit map](documentation/screen_shots/visit_map.PNG).
 
@@ -313,13 +313,16 @@ The user can then navigate back to the other pages using the navigation bar at t
 
 ### Future roll outs
 
-In the future i'd like to address features that correspond to [phase 2](#table-2-roll-out) of my roll out
+In the future i'd like to address features that correspond to [phase 2](#table-2-roll-out) of my roll out:
 
 1. Add separate pages for the cafe, shop and workshop which give more details for these areas.
 2. Give users the oppertunity to book tickets and the lab experience online before visiting.
 3. Give users the option to become members online.
-4. Add a virtual tour of the museum's main exhibtion space on the "inside page"
-5. Improve the performance of the pages (see [Testing](#testing) section below)
+
+I'd also like to:
+
+4. Add a virtual tour of the museum's main exhibtion space on the "inside page".
+5. Improve the performance of the pages (see [Testing](#testing) section below).
 6. Improve the Thanks page so that it loads quicker or uses an alternative form of thanks e.g. a Modal.
 
 ### Accessibility
@@ -373,6 +376,8 @@ HTML, CSS and Javascript (via Bootsrap)
 - [Coolers](https://coolors.co/) Colour pallet - to view the colour scheme.
 
 - [Am I Responsive?](http://ami.responsivedesign.is/) - to show what the website looks like on different devices.
+
+- [Map Generator](https://www.maps.ie/create-google-map/) - to give a google map showing the museum's location.
 
 - [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - to view the website under different accesibiity filters.
 
@@ -502,7 +507,7 @@ Please note that the error messages which relate to a "Trailing slash on void el
 
 I used Lighthouse (a Chrome Developer tool) to test the performance, quality and correctness of the SomScience site.
 
-The site performs well across all areas apart from performance. A number of elements could be addressed in a future roll out to improve the load speed of the page. This includes eliminating blocking elements caused from external styling and image adjustments.
+The site performs well across all areas apart from performance. A number of elements could be addressed in a future roll out to improve the load speed of the page. This includes eliminating blocking elements caused from external styling and image adjustments (advised by my mentor that this wasn't necassary at present).
 
 ![index.html](documentation/screen_shots/validation/index_lighthouse_report.PNG)
   
@@ -571,7 +576,7 @@ The [SomScience website](<https://kosamad.github.io/SomScience/>) is deployed us
 6. Under Build and Deployment, click the "Branch "dropdown menu and change it from "None", to "Main". Save.
 7. The site has now been deployed to Github pages.
 8. To find the site, click on "Deployments", on the right hand side of the repository.
-9. Under the Deployments menu on the left, select "All Environments"
+9. Under the Deployments menu on the left, select "All Environments".
 10. The deployed page can now be selected from the right, under github-pages.
 
 ### Forking the Github Repository
@@ -623,7 +628,7 @@ All content for this website was written by myself. However, I took inspiration 
 
 ### Acknowledgments
 
-- Code Institute for all course material
+- Code Institute for all course material.
 
 - Slack community and the Code Institue tutors for their aid when I was stuck with the navigation toggler.
 
