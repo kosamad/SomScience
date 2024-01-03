@@ -324,6 +324,7 @@ I'd also like to:
 4. Add a virtual tour of the museum's main exhibtion space on the "inside page".
 5. Improve the performance of the pages (see [Testing](#testing) section below).
 6. Improve the Thanks page so that it loads quicker or uses an alternative form of thanks e.g. a Modal.
+7. Modify each page to have indented (white) edges which are more consistent with industry standards and help improve the look of the website, particularly on large screen sizes.
 
 ### Accessibility
 
@@ -661,3 +662,4 @@ All content for this website was written by myself. However, I took inspiration 
 
 - My mentor Jubril Akolade for the support, feedback and encouragement that he gave me during this milestone project.
 
+- My tutors at the City of Bristol College for their feedback on my project and support to bring the page up to industry standards. 
