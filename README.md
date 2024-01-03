@@ -465,7 +465,7 @@ HTML, CSS and Javascript (via Bootsrap)
 
    They fed back that it would be more user friendly to link the “inside” page to the home page more (as all the link words went to the top of the inside page). I.e. link the lab experience section with the lab part on the inside page and highlight the café and quiet space. I therefore rearranged the images/names and links to fulfil this user experience. Furthermore, I did not tell them what the website was about so I could test what individuals thought this website was for.
 
-   They fed back that all links worked and was responsive on different devices.Additionally  the fed back that the website was "beautiful", "really engaging" and "looked like a real-life website".
+   They fed back that all links worked and was responsive on different devices.Additionally  the fed back that the website was "beautiful", "really clear" and "looked like a real-life website".
 
    One tester spotted several grammatical mistakes.
 
@@ -660,5 +660,4 @@ All content for this website was written by myself. However, I took inspiration 
 - Slack community and the Code Institue tutors for their aid when I was stuck with the navigation toggler.
 
 - My mentor Jubril Akolade for the support, feedback and encouragement that he gave me during this milestone project.
-- THANK YOU(TEST)
-- test
+
