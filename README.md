@@ -56,7 +56,7 @@ This is the website for a science museum based in Somerset - SomScience. An inte
   - [Code](#code)
   - [Content](#content)
   - [Media](#media)
-  - [Acknowledgments](#acknowledgments)
+  - [Acknowledgment](#acknowledgment)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -459,6 +459,36 @@ HTML, CSS and Javascript (via Bootsrap)
 
         - They are styled to fit in with the museum’s colour scheme and respond when the mouse hovers over them to improve UX
 
+- #### Real User Testing
+
+   The website was reviewed by friends and family to ensure no bugs were present and to comment on the user experience. In each testing environment, users were asked to pay particular attention to the links and the overall look of the items on the page.
+
+   They fed back that it would be more user friendly to link the “inside” page to the home page more (as all the link words went to the top of the inside page). I.e. link the lab experience section with the lab part on the inside page and highlight the café and quiet space. I therefore rearranged the images/names and links to fulfil this user experience. Furthermore, I did not tell them what the website was about so I could test what individuals thought this website was for.
+
+   They fed back that all links worked and was responsive on different devices.Additionally  the fed back that the website was "beautiful", "really engaging" and "looked like a real-life website".
+
+   One tester spotted several grammatical mistakes.
+
+  - requiremnts (to requirements) on the "Other Facilities" section.
+  
+  - remove the "and" on the home page, under Experience. "Join our team of scientists and in a practical.." to " Join our team of scientists in a practical..."
+  
+  - change how the lab experience subjects appear (remove camel case) and change "who done it" to "Whodunit?
+
+   In addition to this I gave three people a real-life scenario to test.
+
+   1. you want to go somewhere on a Thursday in Bristol. Would this website offer you somewhere to go and when could you arrive?
+
+        - "No, this is a science museum based in Taunton so is too far from Bristol. However, if I did visit, I could arrive from 9.30 on a Thursday."
+
+   2. Can you ask a question to the website team and what happens when you do?
+
+        - "I used the contact page to submit a question and got taken to a thanks page when I did".
+
+   3. What is the website for, can you tell me three things it offers?
+
+        - "The website is for a science museum in Somerset which looks really fun! It has interactive exhibits, a cafe and gives visitors the opportunity to do a lab experience."
+  
 ---
 
 ### Code Testing
@@ -472,10 +502,6 @@ I also used the layout part of Chrome developer to assist with the positioning o
 The website was viewed on Chrome, Internet Explorer, Microsoft Edge, Firefox and to check the view was consistent between browsers.  
 
 The website was also viewed on a desktop, mobile (pixel5 and iphone8) and a Levona tablet.
-
-The website was reviewed by friends and family to ensure no bugs were present and to comment on the user experience. In each testing environment, users were asked to pay particular attention to the links and the overall look of the items on the page. They fed back that it would be more user friendly to link the “inside” page to the home page more (as all the link words went to the top of the inside page). I.e. link the lab experience section with the lab part on the inside page and highlight the café and quiet space. I therefore rearranged the images/names and links to fulfil this user experience.  
-
-They fed back that all links worked and was responsive on different devices.
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :---: | :---: | :---: | :---: | :---: |
@@ -604,7 +630,8 @@ To copy the original repository and make changes without effecting the deployed 
 
 - To learn how to embed a map into my website I watched this [YouTube video](https://www.youtube.com/watch?v=3posLKQrhfU).
 
-- To understand how to add a Thank you page I watched this [YouTube video](https://www.youtube.com/watch?v=r4RQ38EoLds) and set up a form using the code from [Form Submit](https://formsubmit.co/) using a fictional email address (somscience.fictional.site@gmail.com).
+- To understand how to add a Thank you page I watched this [YouTube video](https://www.youtube.com/watch?v=r4RQ38EoLds) and set up a form using the code from [Form Submit](https://for
+msubmit.co/) using a fictional email address (somscience.fictional.site@gmail.com).
   
 - The Social Media icons - taken and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute.
 
@@ -626,10 +653,11 @@ All content for this website was written by myself. However, I took inspiration 
 
 - My Logo image is sourced from Vecteezy.
 
-### Acknowledgments
+### Acknowledgment
 
 - Code Institute for all course material.
 
 - Slack community and the Code Institue tutors for their aid when I was stuck with the navigation toggler.
 
-- My mentor Jubril Akolade for the support, feedback and encouragement that he gave me during this milestone project.  
+- My mentor Jubril Akolade for the support, feedback and encouragement that he gave me during this milestone project.
+- THANK YOU(TEST)
